@@ -1,0 +1,8 @@
+---
+
+- name: Copy .zshrc to $HOME
+  ansible.builtin.copy:
+    src: "{{ role_path }}/files/.zshrc"
+    dest: "/Users/donovansaid/.zshrc"
+    owner: "{{ username }}"
+    group: staff

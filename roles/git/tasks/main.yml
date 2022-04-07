@@ -1,0 +1,9 @@
+---
+
+- name: Copy .gitconfig to $HOME
+  ansible.builtin.copy:
+    src: "{{ role_path }}/files/.gitconfig"
+    dest: "/Users/donovansaid/.gitconfig"
+    owner: "{{ username }}"
+    group: staff
+  

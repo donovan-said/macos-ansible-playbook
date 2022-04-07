@@ -1,0 +1,23 @@
+---
+
+username: donovansaid
+
+install_homebrew_if_missing: false
+
+upgrade_homebrew_packages: false
+
+brew_cask_packages:
+    - sublime-text
+
+brew_packages:
+    - pyenv
+    - pipenv
+    - vault
+    - terraform
+    - docker
+    - aws-cdk
+    - cdk8s
+    - cdktf
+    - zsh
+    - tree
+    - wget

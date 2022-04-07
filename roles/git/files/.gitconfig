@@ -1,0 +1,25 @@
+[user]
+	name = Donovan Said
+	email = *******************
+
+[credential]
+	UseHttpPath = true
+
+[push]
+    editor = vim
+    default = simple
+
+[core]
+	excludesfile = ~/.gitignore
+
+[alias]
+	a  = add .
+	aa = add --all
+  	###############
+	c  = commit
+	cl = clone
+	ch = checkout
+	###############
+	b  = branch
+	###############
+	l  = log
