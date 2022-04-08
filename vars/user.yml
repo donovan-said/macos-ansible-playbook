@@ -1,6 +1,10 @@
 ---
 
-username: donovansaid
+user_group: staff
+
+git_username: Donovan Said
+
+git_email: donovan.s.said@gmail.com
 
 install_homebrew_if_missing: false
 
@@ -10,8 +14,10 @@ brew_cask_packages:
     - sublime-text
 
 brew_packages:
+    - ansible-lint
     - pyenv
     - pipenv
+    - pre-commit
     - vault
     - terraform
     - docker
@@ -21,3 +27,10 @@ brew_packages:
     - zsh
     - tree
     - wget
+
+pyenv_versions:
+    - 3.7.13
+    - 3.8.13
+    - 3.9.9
+    - 3.9.11
+    - 3.10.3

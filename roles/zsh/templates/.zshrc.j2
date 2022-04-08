@@ -8,7 +8,7 @@ ZSH_THEME="agnoster"
 plugins=(git brew python pyenv docker knife ruby gem pep8 pip osx z)
 
 # Path to oh-my-zsh Installation
-export ZSH=/Users/donovansaid/.oh-my-zsh
+export ZSH={{ lookup('ansible.builtin.env', 'HOME') }}/.oh-my-zsh
 
 source $ZSH/oh-my-zsh.sh
 
