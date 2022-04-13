@@ -21,6 +21,7 @@ brew_packages:
     - vault
     - terraform
     - docker
+    - kubectl
     - aws-cdk
     - cdk8s
     - cdktf
