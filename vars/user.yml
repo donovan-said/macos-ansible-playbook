@@ -22,6 +22,7 @@ brew_packages:
     - terraform
     - docker
     - kubectl
+    - istioctl
     - aws-cdk
     - cdk8s
     - cdktf
