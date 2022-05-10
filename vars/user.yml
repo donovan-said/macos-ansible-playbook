@@ -22,7 +22,10 @@ brew_packages:
     - terraform
     - docker
     - kubectl
+    - minikube
     - istioctl
+    - mkcert
+    - postgresql
     - aws-cdk
     - cdk8s
     - cdktf

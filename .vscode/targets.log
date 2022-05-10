@@ -1,0 +1,245 @@
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+
+# Make data base, printed on Tue May 10 16:12:38 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/donovansaid/github/personal/ansible-macos-config
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/pl/2rsd6nqj6gbd1jtn0l_g4sxm0000gp/T/vscode-ipc-e8ed1e51-39c4-45eb-95fe-1dd38a16b063.sock
+# environment
+VSCODE_CWD = /Users/donovansaid/github/personal
+# environment
+PATH = /Users/donovansaid/.pyenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.iclkEJoQf2/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /Users/donovansaid/github/personal/ansible-macos-config
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+PYENV_SHELL = zsh
+# environment
+HOME = /Users/donovansaid
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/donovansaid/Library/Application Support/Code/CachedData/57fd6d0195bb9b9d1b49f6da5db789060795de47
+# environment
+LOGNAME = donovansaid
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+ZSH = /Users/donovansaid/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# environment
+COLORTERM = truecolor
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+LC_TERMINAL = iTerm2
+# environment
+SHLVL = 3
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = donovansaid
+# makefile
+.DEFAULT_GOAL := run-ansible
+# default
+MAKECMDGOALS := all
+# environment
+TERM_SESSION_ID = w0t0p0:11F5D89A-F474-45F1-AD99-97B5D462362F
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# environment
+TERM_PROGRAM = iTerm.app
+# default
+.VARIABLES :=
+# environment
+TMPDIR = /var/folders/pl/2rsd6nqj6gbd1jtn0l_g4sxm0000gp/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/donovansaid/Library/Application Support/Code/1.67.0-main.sock
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+TERM_PROGRAM_VERSION = 3.4.15
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.29846543.29846549.D93FF2B9-F08E-4BF1-BE57-E7120CA3F826
+# environment
+LC_TERMINAL_VERSION = 3.4.15
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+ITERM_SESSION_ID = w0t0p0:11F5D89A-F474-45F1-AD99-97B5D462362F
+# environment
+COLORFGBG = 12;8
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F6:0:2
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES :=
+# automatic
+<F = $(notdir $<)
+# environment
+ITERM_PROFILE = Don
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES :=
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_PID = 60300
+# variable set hash-table stats:
+# Load=79/1024=8%, Rehash=0, Collisions=4/103=4%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777220, inode 28964490): 9 files, no impossibilities.
+
+# 9 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-07 17:47:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+run-ansible:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 2):
+	ansible-playbook playbook.yml
+
+
+# files hash-table stats:
+# Load=5/1024=0%, Rehash=0, Collisions=0/17=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Tue May 10 16:12:38 2022
+
+
+make: *** No rule to make target `all'.  Stop.
+
