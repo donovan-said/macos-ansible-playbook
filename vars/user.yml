@@ -23,6 +23,7 @@ brew_packages:
     - docker
     - kubectl
     - minikube
+    - helm
     - istioctl
     - mkcert
     - postgresql
