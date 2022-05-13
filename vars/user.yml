@@ -15,24 +15,25 @@ brew_cask_packages:
 
 brew_packages:
     - ansible-lint
-    - pyenv
-    - pipenv
-    - pre-commit
-    - vault
-    - terraform
-    - docker
-    - kubectl
-    - minikube
-    - helm
-    - istioctl
-    - mkcert
-    - postgresql
     - aws-cdk
+    - aws-iam-authenticator
     - cdk8s
     - cdktf
-    - zsh
+    - docker
+    - helm
+    - istioctl
+    - kubectl
+    - minikube
+    - mkcert
+    - pipenv
+    - postgresql
+    - pre-commit
+    - pyenv
+    - terraform
     - tree
+    - vault
     - wget
+    - zsh
 
 pyenv_versions:
     - 3.7.13
