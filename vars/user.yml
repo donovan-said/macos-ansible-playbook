@@ -18,6 +18,7 @@ brew_packages:
     - ansible-lint
     - aws-cdk
     - aws-iam-authenticator
+    - azure-cli
     - cdk8s
     - cdktf
     - docker
