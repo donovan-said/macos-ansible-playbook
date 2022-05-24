@@ -12,6 +12,7 @@ upgrade_homebrew_packages: false
 
 brew_cask_packages:
     - sublime-text
+    - powershell
 
 brew_packages:
     - ansible-lint
