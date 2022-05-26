@@ -35,6 +35,7 @@ brew_packages:
     - tree
     - vault
     - wget
+    - jq
     - zsh
 
 pyenv_versions:
