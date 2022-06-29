@@ -21,6 +21,7 @@ brew_cask_packages:
 
 brew_packages:
     - ansible-lint
+    - awscli
     - aws-cdk
     - aws-iam-authenticator
     - azure-cli
@@ -33,15 +34,14 @@ brew_packages:
     - minikube
     - mkcert
     - pipenv
+    - pyenv
     - postgresql
     - pre-commit
-    - pyenv
     - terraform
-    - tree
     - vault
+    - tree
     - wget
     - jq
-    # - zsh
 
 pyenv_versions:
     - 3.7.13

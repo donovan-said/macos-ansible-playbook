@@ -1,0 +1,9 @@
+{
+    "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+    "terminal.external.osxExec": "iTerm.app",
+    "workbench.colorTheme": "Monokai",
+    "editor.rulers": [
+        80,
+        120
+    ]
+}
