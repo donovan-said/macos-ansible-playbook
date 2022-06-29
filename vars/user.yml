@@ -11,8 +11,13 @@ install_homebrew_if_missing: false
 upgrade_homebrew_packages: false
 
 brew_cask_packages:
-    - sublime-text
+    - visual-studio-code
     - powershell
+    - iterm2
+    - slack
+    - microsoft-teams
+    - spotify
+    - keepingyouawake
 
 brew_packages:
     - ansible-lint
@@ -36,7 +41,7 @@ brew_packages:
     - vault
     - wget
     - jq
-    - zsh
+    # - zsh
 
 pyenv_versions:
     - 3.7.13

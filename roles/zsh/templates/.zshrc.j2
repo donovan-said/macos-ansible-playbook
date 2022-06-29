@@ -5,7 +5,7 @@ DEFAULT_USER=whoami
 ZSH_THEME="agnoster"
 
 # ZSH Plugins
-plugins=(git brew python pyenv docker knife ruby gem pep8 pip osx z)
+plugins=(git brew python pyenv z)
 
 # Path to oh-my-zsh Installation
 export ZSH={{ lookup('ansible.builtin.env', 'HOME') }}/.oh-my-zsh
@@ -23,7 +23,7 @@ autoload -U +X bashcompinit && bashcompinit
 # PATH
 #-----------
 
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin/
 
 #-------------------------------------------------------------------------------
 
