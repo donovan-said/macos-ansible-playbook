@@ -33,3 +33,12 @@ export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin/
 eval "$(pyenv init --path)"
 
 #-------------------------------------------------------------------------------
+
+# Requirement for M1 Chip
+#-----------
+
+export LDFLAGS="-L/opt/homebrew/opt/openssl@1.1/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/openssl@1.1/include"
+
+export C_INCLUDE_PATH=/opt/homebrew/Cellar/librdkafka/1.9.0/include
+export LIBRARY_PATH=/opt/homebrew/Cellar/librdkafka/1.9.0/lib
