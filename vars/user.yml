@@ -18,6 +18,7 @@ brew_cask_packages:
     - microsoft-teams
     - spotify
     - keepingyouawake
+    - aws-vpn-client
 
 brew_packages:
     - ansible-lint
