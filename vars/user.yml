@@ -19,6 +19,7 @@ brew_cask_packages:
     - spotify
     - keepingyouawake
     - aws-vpn-client
+    - the-unarchiver
 
 brew_packages:
     - ansible-lint
