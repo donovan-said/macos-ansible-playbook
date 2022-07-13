@@ -28,6 +28,15 @@ The purposse of this script is to:
 * Install ansible via Brew
 * Execute the Ansible playbook
 
+# Roles
+
+## vscode
+
+The "python.venvPath": "/Users/donovansaid/.local/share/virtualenvs/" needs to be 
+added manually as vsode isn't able to pick up virtual environments created by pipenv.
+For more information please see: https://developpaper.com/configuring-pipenv-virtual-environment-with-python-of-vscode/
+
+
 ## References
 
 [mrlesmithjr - ansible-macos-homebrew-packages.yml](https://gist.github.com/mrlesmithjr/f3c15fdd53020a71f55c2032b8be2eda)
