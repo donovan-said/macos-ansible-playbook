@@ -46,6 +46,10 @@ brew_packages:
     - wget
     - jq
 
+# Need to setup functionality for npm
+npm_packages:
+    - wscat
+
 pyenv_versions:
     - 3.7.13
     - 3.8.13
