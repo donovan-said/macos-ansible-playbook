@@ -2,9 +2,12 @@
 - hosts: localhost
   connection: local
   vars_files:
-    - "./vars/user.yml"
+    - "./vars/general.yml"
+    - "./vars/brew.yml"
+    - "./vars/python.yml"
+    - "./vars/npm.yml"
   roles:
     - brew
-    - git
-    - zsh
-    - azure_cli
+#    - git
+#    - zsh
+#    - azure_cli

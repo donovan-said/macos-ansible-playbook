@@ -1,0 +1,37 @@
+brew_cask_packages:
+  - aws-vpn-client
+  - iterm2
+  - keepingyouawake
+  - microsoft-teams
+  - openlens
+  - powershell
+  - slack
+  - spotify
+  - the-unarchiver
+  - visual-studio-code
+
+brew_packages:
+  - ansible
+  - ansible-lint
+  - aws-cdk
+  - aws-iam-authenticator
+  - awscli
+  - azure-cli
+  - cdk8s
+  - cdktf
+  - docker
+  - hadolint
+  - helm
+  - istioctl
+  - jq
+  - kubectl
+  - minikube
+  - mkcert
+  - pipenv
+  - postgresql
+  - pre-commit
+  - pyenv
+  - terraform
+  - tree
+  - vault
+  - wget

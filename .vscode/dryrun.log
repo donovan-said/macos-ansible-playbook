@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/donovansaid/repositories/github_personal/ansible-macos-config'
+ansible-playbook playbook.yml
+make: Leaving directory `/Users/donovansaid/repositories/github_personal/ansible-macos-config'
+ 
