@@ -3,7 +3,6 @@
 - [MacBook Ansible Playbook](#macbook-ansible-playbook)
 - [Overview](#overview)
 - [Bootstrap](#bootstrap)
-  * [bootstrap.sh Script](#bootstrapsh-script)
 - [Roles](#roles)
   * [vscode](#vscode)
   * [ZSH](#zsh)
@@ -17,16 +16,8 @@ configuration management.
 
 # Bootstrap
 
-## bootstrap.sh Script
-
-The purposse of this script is to:
-
-* Install Brew
-* Install pyenv via Brew
-* Install pyenv versions
-* Set global pyenv version
-* Install ansible via Brew
-* Execute the Ansible playbook
+The purpose of the [bootstrap.sh](./bootstrap.sh) shell script is to ensure that Brew and Ansible have been installed
+and to initiate the [playbook.yml](./playbook.yml).
 
 # Roles
 
