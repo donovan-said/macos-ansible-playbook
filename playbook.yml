@@ -4,11 +4,11 @@
   vars_files:
     - "./vars/general.yml"
     - "./vars/brew.yml"
-    - "./vars/python.yml"
-    - "./vars/npm.yml"
+#    - "./vars/wip_python.yml"
+#    - "./vars/wip_npm.yml"
   roles:
+    - azure_cli
     - brew
-#    - git
-#    - zsh
-#    - azure_cli
+    - git
+    - zsh
 ...
