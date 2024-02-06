@@ -1,0 +1,7 @@
+---
+- name: Installing Gem Packages
+  gem:
+    name: "{{ item }}"
+    state: present
+  loop: "{{ gem_packages }}"
+...
