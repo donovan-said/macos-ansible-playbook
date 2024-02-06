@@ -23,6 +23,7 @@ __Reference__:
 
 * Split variable files into categories
 * Improved bootstrap script
+* Flagged WIP items
 
 ### Added
 
