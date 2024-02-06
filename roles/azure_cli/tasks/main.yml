@@ -1,2 +1,4 @@
+---
 - name: Installing AZ CLI - Azure DevOps Extension
   shell: az extension add --name azure-devops
+...

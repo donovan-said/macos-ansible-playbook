@@ -1,3 +1,4 @@
+---
 brew_cask_packages:
   - aws-vpn-client
   - iterm2
@@ -35,3 +36,4 @@ brew_packages:
   - tree
   - vault
   - wget
+...
