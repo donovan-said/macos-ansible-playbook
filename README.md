@@ -19,6 +19,12 @@ configuration management.
 The purpose of the [bootstrap.sh](./bootstrap.sh) shell script is to ensure that Brew and Ansible have been installed
 and to initiate the [playbook.yml](./playbook.yml).
 
+To execute, simply run the following command:
+
+```commandline
+sh bootstrap.sh
+```
+
 # Roles
 
 ## vscode
