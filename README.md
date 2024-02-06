@@ -7,6 +7,7 @@
   * [Azure CLI](#azure-cli)
   * [Brew](#brew)
   * [Git](#git)
+  * [Ruby](#ruby)
   * [ZSH](#zsh)
 - [TODO](#todo)
 - [References](#references)
@@ -40,6 +41,10 @@ This role installs brew and brew cask packages.
 ## Git
 
 This role configures the .gitconfig file.
+
+## Ruby
+
+This role installs gem packages.
 
 ## ZSH
 

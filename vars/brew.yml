@@ -20,6 +20,7 @@ brew_packages:
   - azure-cli
   - cdk8s
   - cdktf
+  - chruby
   - docker
   - hadolint
   - helm
@@ -32,6 +33,8 @@ brew_packages:
   - postgresql
   - pre-commit
   - pyenv
+  - ruby
+  - ruby-install
   - terraform
   - tree
   - vault
