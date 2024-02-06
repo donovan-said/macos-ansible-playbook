@@ -1,16 +1,19 @@
 #!/bin/bash
+
 set -e
 
-# A Shell script used to bootstrap OSX in preperation of the Ansible playbook.
+# A Shell script used to bootstrap OSX in preparation of the Ansible playbook.
 
-################################################################################
-# Brew Installation                                                            # 
-################################################################################
+if [[ $(command -v brew) == "" ]]; then
+    echo "Installing Hombrew"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+else
+    echo "Updating Homebrew"
+    brew update
+fi
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-################################################################################
-# Ansible Execution                                                            # 
-################################################################################
+brew install ansible
 
 ansible-playbook playbook.yml
+
+

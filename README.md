@@ -1,42 +1,54 @@
 # MacBook Ansible Playbook
 
-# TODO
+- [MacBook Ansible Playbook](#macbook-ansible-playbook)
+- [Overview](#overview)
+- [Bootstrap](#bootstrap)
+- [Roles](#roles)
+  * [Azure CLI](#azure-cli)
+  * [Brew](#brew)
+  * [Git](#git)
+  * [ZSH](#zsh)
+- [TODO](#todo)
+- [References](#references)
 
-* Remove ZSH as this now comes with the latest Mac
-* Configure aws
-* Add brew path as parameter
+# Overview
 
-# ZSH/Term
-
-* Install oh mu zsh
-* Install powerline fonts
-* iTerm
-    * Profile -> Test -> Change font to Meslo LG L for Powerline
-    * Profile -> Colors -> Load Presets
-* Update VScode settings.json
+The purpose of this Ansible playbook is to configure OSX (where possible, and where it makes sense) through immutable
+configuration management.
 
 # Bootstrap
 
-## bootstrap.sh Script
+The purpose of the [bootstrap.sh](./bootstrap.sh) shell script is to ensure that Brew and Ansible have been installed
+and to initiate the [playbook.yml](./playbook.yml).
 
-The purposse of this script is to:
+To execute, simply run the following command:
 
-* Install install Brew
-* Install pyenv via Brew
-* Install pyenv versions
-* Set global pyenv version
-* Install ansible via Brew
-* Execute the Ansible playbook
+```commandline
+sh bootstrap.sh
+```
 
 # Roles
 
-## vscode
+## Azure CLI
 
-The "python.venvPath": "/Users/donovansaid/.local/share/virtualenvs/" needs to be 
-added manually as vsode isn't able to pick up virtual environments created by pipenv.
-For more information please see: https://developpaper.com/configuring-pipenv-virtual-environment-with-python-of-vscode/
+This role installs azure-cli extensions.
 
+## Brew
 
-## References
+This role installs brew and brew cask packages.
+
+## Git
+
+This role configures the .gitconfig file.
+
+## ZSH
+
+This role configures the .zshrc file.
+
+# TODO
+
+Please see the [TODO](./docs/TODO.md) documentation.
+
+# References
 
 [mrlesmithjr - ansible-macos-homebrew-packages.yml](https://gist.github.com/mrlesmithjr/f3c15fdd53020a71f55c2032b8be2eda)

@@ -1,0 +1,11 @@
+---
+user_group: staff
+
+git_username: Donovan Said
+
+git_email: donovan.s.said@gmail.com
+
+install_homebrew_if_missing: false
+
+upgrade_homebrew_packages: false
+...
