@@ -17,6 +17,17 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.2.0]
+
+### Changed
+
+* Split variable files into categories
+* Improved bootstrap script
+
+### Added
+
+* Coding standards and guidance
+
 ## [0.1.0]
 
 ### Added
