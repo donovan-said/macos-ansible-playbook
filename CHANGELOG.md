@@ -28,6 +28,12 @@ __Reference__:
 - Installed Ruby via brew to replace the default OSX Ruby
 - Update the zshrc file to point to the homebrew version of Ruby
 
+## [0.3.0]
+
+### Changed
+
+* Removed the brew pre-commit package, as this should be installed via the pipfile for the specified repo
+
 ## [0.2.0]
 
 ### Changed

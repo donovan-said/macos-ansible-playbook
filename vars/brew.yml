@@ -31,7 +31,6 @@ brew_packages:
   - mkcert
   - pipenv
   - postgresql
-  - pre-commit
   - pyenv
   - ruby
   - ruby-install
