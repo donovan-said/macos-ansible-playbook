@@ -17,6 +17,13 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.5.0]
+
+### Changed
+
+* Added vscode role, which copies over the settings.json file
+* Updated bootstrap.sh script to source .zshrc after playbook run
+
 ## [0.4.1]
 
 ### Fixed
