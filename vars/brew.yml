@@ -27,7 +27,6 @@ brew_packages:
   - istioctl
   - jq
   - kubectl
-  - minikube
   - mkcert
   - pipenv
   - postgresql
@@ -38,4 +37,5 @@ brew_packages:
   - tree
   - vault
   - wget
+  - websocat
 ...

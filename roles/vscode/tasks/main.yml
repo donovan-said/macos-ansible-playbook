@@ -1,0 +1,9 @@
+---
+- name: Copy settings.json to vscode directory
+  ansible.builtin.template:
+    src: "{{ role_path }}/templates/settings.json.j2"
+    dest: "{{ lookup('ansible.builtin.env', 'HOME') }}/Library/Application\ Support/Code/User"
+    owner: "{{ lookup('ansible.builtin.env', 'USER') }}"
+    group: "{{ user_group }}"
+...
+

@@ -17,6 +17,22 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.5.0]
+
+### Added
+
+* Functionality to install oh my zsh
+
+### Changed
+
+* Added vscode role, which copies over the settings.json file
+* Updated bootstrap.sh script to source .zshrc after playbook run
+* Updated zshrc PATH, as Docker Desktop's kubectl was taking precedence over the brew kubectl
+
+### Removed
+
+* Brew minikube as I'm using Docker Desktop for local k8s cluster
+
 ## [0.4.1]
 
 ### Fixed

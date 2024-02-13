@@ -9,6 +9,7 @@
   * [Git](#git)
   * [Ruby](#ruby)
   * [ZSH](#zsh)
+  * [VSCode](#vscode)
 - [TODO](#todo)
 - [References](#references)
 
@@ -48,7 +49,11 @@ This role installs gem packages.
 
 ## ZSH
 
-This role configures the .zshrc file.
+Install [oh my zsh](https://github.com/ohmyzsh/ohmyzsh) and configure .zshrc file
+
+## VSCode
+
+Copy a predefined settings.json file to VSCode user path
 
 # TODO
 
