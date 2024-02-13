@@ -23,6 +23,12 @@ __Reference__:
 
 * Added vscode role, which copies over the settings.json file
 * Updated bootstrap.sh script to source .zshrc after playbook run
+* Updated zshrc PATH, as Docker Desktop's kubectl was taking precedence over the brew kubectl
+* Install oh my zsh
+
+### Removed
+
+* Brew minikube as I'm using Docker Desktop for local k8s cluster
 
 ## [0.4.1]
 

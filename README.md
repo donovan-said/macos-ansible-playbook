@@ -49,7 +49,7 @@ This role installs gem packages.
 
 ## ZSH
 
-This role configures the .zshrc file.
+Install [oh my zsh](https://github.com/ohmyzsh/ohmyzsh) and configure .zshrc file
 
 ## VSCode
 
