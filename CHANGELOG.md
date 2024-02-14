@@ -17,6 +17,12 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.6.0]
+
+### Added
+
+* Added golang
+
 ## [0.5.0]
 
 ### Added

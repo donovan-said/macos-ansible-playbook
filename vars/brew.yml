@@ -22,6 +22,7 @@ brew_packages:
   - cdktf
   - chruby
   - docker
+  - go
   - hadolint
   - helm
   - istioctl
