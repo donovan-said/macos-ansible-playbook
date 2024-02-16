@@ -11,12 +11,44 @@
     "go.delveConfig": {
 
     },
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "golang.go",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "[go.mod]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
     "security.workspace.trust.untrustedFiles": "open",
     "[python]": {
         "editor.formatOnType": true
     },
+    "[json]": {
+        "editor.tabSize": 2
+    },
     "workbench.preferredHighContrastLightColorTheme": "Monokai",
     "workbench.preferredLightColorTheme": "Monokai",
     "workbench.preferredHighContrastColorTheme": "Default Dark Modern",
-    "workbench.colorTheme": "Monokai Dimmed"
+    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.editor.enablePreview": false,
+    // Add "workbench.settings.editor": "json" to your settings.json file.
+    // This will make it so that menu File → Preferences → Settings or ⌘ + ,
+    // opens your settings.json file by default.
+    "workbench.settings.editor": "json",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    // prevent automatic formatting on code
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+    // remove any code actions that are configured to run on save
+    "editor.codeActionsOnSave": [],
+    "settingsSync.ignoredSettings": [
+
+    ],
 }
