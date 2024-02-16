@@ -17,6 +17,16 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.7.0]
+
+### Fixed
+
+* Bug in vscode file
+
+### Changed
+
+* Vscode settings.json
+
 ## [0.6.0]
 
 ### Added
