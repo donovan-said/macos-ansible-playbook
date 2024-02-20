@@ -2,6 +2,7 @@
 - hosts: localhost
   connection: local
   vars_files:
+    - "./vars/azure.yml"
     - "./vars/general.yml"
     - "./vars/brew.yml"
     - "./vars/ruby.yml"

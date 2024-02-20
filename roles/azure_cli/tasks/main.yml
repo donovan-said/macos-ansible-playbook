@@ -1,4 +1,4 @@
 ---
 - name: Installing AZ CLI - Azure DevOps Extension
-  shell: az extension add --name azure-devops
-...
+  shell: /bin/bash -c az extension add --name {{ item }}
+  loop: "{{ azure_cli_extensions }}"

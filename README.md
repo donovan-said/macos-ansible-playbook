@@ -1,5 +1,9 @@
 # macOS Ansible Playbook
 
+> [!WARNING]
+> This playbook is still experimental and under development. Please review the
+> codebase before running this on your system.
+
 - [macOS Ansible Playbook](#macos-ansible-playbook)
   - [Overview](#overview)
   - [Bootstrap](#bootstrap)
@@ -12,7 +16,7 @@
     - [VSCode](#vscode)
       - [settings.json](#settingsjson)
       - [Extensions](#extensions)
-  - [TODO](#todo)
+  - [Improvements \& TODOs](#improvements--todos)
   - [References](#references)
 
 ## Overview
@@ -95,10 +99,11 @@ Install the following extensions:
 | Docker           | [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)                | ms-azuretools.vscode-docker          |
 
 
-## TODO
+## Improvements & TODOs
 
 Please see the [TODO](./docs/TODO.md) documentation.
 
 ## References
 
 [mrlesmithjr - ansible-macos-homebrew-packages.yml](https://gist.github.com/mrlesmithjr/f3c15fdd53020a71f55c2032b8be2eda)
+[dev.to - Awesome VS Code setup](https://dev.to/pas8/best-vs-code-setup-20fe)

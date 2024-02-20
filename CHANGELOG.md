@@ -2,20 +2,32 @@
 
 __N.b.__ Latest version should always be on top
 
-| Heading | Description |
-| :---- | :---- |
-| __Added__ | for new features. |
-| __Changed__ | for changes in existing functionality. |
-| __Deprecated__ | for soon-to-be removed features. |
-| __Removed__ | for now removed features. |
-| __Fixed__ | for any bug fixes. |
-| __Security__ | in case of vulnerabilities. |
+| Heading        | Description                            |
+| :------------- | :------------------------------------- |
+| __Added__      | for new features.                      |
+| __Changed__    | for changes in existing functionality. |
+| __Deprecated__ | for soon-to-be removed features.       |
+| __Removed__    | for now removed features.              |
+| __Fixed__      | for any bug fixes.                     |
+| __Security__   | in case of vulnerabilities.            |
 
 __Reference__:
 * [keepachangelog](https://keepachangelog.com/en/1.0.0/)
 * [Semantic Versioning](https://semver.org/)
 
 # CHANGELOG
+
+## [0.8.0]
+
+### Added
+
+* Functionality to install vscode extensions defined in a vars file
+* Documentation referencing all vscode extenstions
+
+### Changed
+
+* The Azure CLI task to install extensions defined in a vars file
+* Updated and formatted the vscode settings.json file
 
 ## [0.7.0]
 
