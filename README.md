@@ -2,9 +2,6 @@
 
 - [macOS Ansible Playbook](#macos-ansible-playbook)
   - [Overview](#overview)
-  - [Requirements](#requirements)
-  - [Setup](#setup)
-    - [pre-commit](#pre-commit)
   - [Bootstrap](#bootstrap)
   - [Roles](#roles)
     - [Azure CLI](#azure-cli)
@@ -19,28 +16,9 @@
 ## Overview
 
 The purpose of this Ansible playbook is to configure OSX (where possible, and 
-where it makes sense) through immutableconfiguration management.
-
-## Requirements
+where it makes sense) through immutable configuration management.
 
 This playbook has been test on macOS 14.1.1 (23B81) on an Apple M1 Pro chip.
-
-| Tool                                   | Description                                     |
-|:---------------------------------------|:------------------------------------------------|
-| [pre-commit](https://pre-commit.com/)  | Used to ensure standards prior to commits       |
-
-## Setup
-
-### pre-commit
-
-[pre-commit](https://pre-commit.com/) is used to enforce standards on this 
-repository prior to committing any changes. This forms part of our 
-[Contributing](../CONTRIBUTING.md) standards. Please also see the 
-[pre-commit-config.yaml](../.pre-commit-config.yaml) file.
-
-```shell
-pre-commit install
-```
 
 ## Bootstrap
 
