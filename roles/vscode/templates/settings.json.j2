@@ -1,40 +1,16 @@
 {
     "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.lineHeight": 1,
     "terminal.external.osxExec": "iTerm.app",
-    "editor.rulers": [
-        80,
-        120
-    ],
-    "python.venvPath": "/Users/donovansaid/.local/share/virtualenvs/",
-    "redhat.telemetry.enabled": true,
-    "workbench.startupEditor": "none",
-    "go.delveConfig": {
-
-    },
-    "[go]": {
-        "editor.formatOnSave": true,
-        "editor.defaultFormatter": "golang.go",
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": true
-        }
-    },
-    "[go.mod]": {
-        "editor.formatOnSave": true,
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": true
-        }
-    },
     "security.workspace.trust.untrustedFiles": "open",
-    "[python]": {
-        "editor.formatOnType": true
-    },
-    "[json]": {
-        "editor.tabSize": 2
-    },
+    "workbench.startupEditor": "none",
     "workbench.preferredHighContrastLightColorTheme": "Monokai",
     "workbench.preferredLightColorTheme": "Monokai",
     "workbench.preferredHighContrastColorTheme": "Default Dark Modern",
-    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.colorTheme": "Monokai Pro",
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.editor.enablePreview": false,
     // Add "workbench.settings.editor": "json" to your settings.json file.
     // This will make it so that menu File → Preferences → Settings or ⌘ + ,
@@ -42,13 +18,30 @@
     "workbench.settings.editor": "json",
     "editor.insertSpaces": true,
     "editor.tabSize": 4,
-    // prevent automatic formatting on code
-    "editor.formatOnSave": false,
-    "editor.formatOnPaste": false,
-    "editor.formatOnType": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+        80,
+        120
+    ],
     // remove any code actions that are configured to run on save
     "editor.codeActionsOnSave": [],
-    "settingsSync.ignoredSettings": [
-
-    ],
+    "settingsSync.ignoredSettings": [],
+    "redhat.telemetry.enabled": true,
+    "python.venvPath": "/Users/donovansaid/.local/share/virtualenvs/",
+    "[go][go.mod]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        },
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "golang.go",
+    },
+    "go.delveConfig": {},
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "[json]": {
+        "editor.tabSize": 2
+    },
 }

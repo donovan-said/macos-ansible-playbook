@@ -10,6 +10,8 @@
     - [Ruby](#ruby)
     - [ZSH](#zsh)
     - [VSCode](#vscode)
+      - [settings.json](#settingsjson)
+      - [Extensions](#extensions)
   - [TODO](#todo)
   - [References](#references)
 
@@ -59,7 +61,39 @@ file
 
 ### VSCode
 
+#### settings.json
+
 Copy a predefined settings.json file to VSCode user path
+
+#### Extensions
+
+Install the following extensions:
+
+| Category         | Extension                                                                                                | Name                                 |
+| ---------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------ |
+| VSCode Aesthetic | [Monokau Prod](https://monokai.pro/vscode)                                                               | monokai.theme-monokai-pro-vscode     |
+| VSCode Aesthetic | [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)     | pkief.material-icon-theme            |
+| VSCode Aesthetic | [Fluent Icon](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons)            | miguelsolorio.fluent-icons           |
+| VSCode Aesthetic | [Carbon Icon](https://marketplace.visualstudio.com/items?itemName=antfu.icons-carbon)                    | antfu.icons-carbon                   |
+| Git              | [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)                           | eamodio.gitlens                      |
+| AWS              | [AWS Toolkit](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode)  | amazonwebservices.aws-toolkit-vscode |
+| Azure            | [Azure Account](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-account)             | ms-vscode.azure-account              |
+| Azure            | [Azure Pipelines](https://marketplace.visualstudio.com/items?itemName=ms-azure-devops.azure-pipelines)   | ms-azure-devops.azure-pipelines      |
+| Azure/Windows    | [PowerShell](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)                   | ms-vscode.powershell                 |
+| Languages        | [Go](https://marketplace.visualstudio.com/items?itemName=golang.Go)                                      | golang.go                            |
+| Languages        | [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)                           | ms-python.python                     |
+| Languages        | [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)                  | ms-python.vscode-pylance             |
+| Languages        | [Python issort](https://marketplace.visualstudio.com/items?itemName=ms-python.isort)                     | ms-python.isort                      |
+| Languages        | [Python Debugger](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy)                 | ms-python.debugpy                    |
+| Languages        | [autoDocstring](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)             | njpwerner.autodocstring              |
+| Languages        | [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)                           | redhat.vscode-yaml                   |
+| Languages        | [JSON Tools](https://marketplace.visualstudio.com/items?itemName=eriklynd.json-tools)                    | eriklynd.json-tools                  |
+| Languages        | [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)    | yzhang.markdown-all-in-one           |
+| Languages        | [JenkinsFile Support](https://marketplace.visualstudio.com/items?itemName=ivory-lab.jenkinsfile-support) | ivory-lab.jenkinsfile-support        |
+| Languages        | [Makefile Tools](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)         | ms-vscode.makefile-tools             |
+| Docker           | [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) | ms-vscode-remote.remote-containers   |
+| Docker           | [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)                | ms-azuretools.vscode-docker          |
+
 
 ## TODO
 
