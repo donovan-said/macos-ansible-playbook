@@ -1,27 +1,52 @@
-# MacBook Ansible Playbook
+# macOS Ansible Playbook
 
-- [MacBook Ansible Playbook](#macbook-ansible-playbook)
-- [Overview](#overview)
-- [Bootstrap](#bootstrap)
-- [Roles](#roles)
-  * [Azure CLI](#azure-cli)
-  * [Brew](#brew)
-  * [Git](#git)
-  * [Ruby](#ruby)
-  * [ZSH](#zsh)
-  * [VSCode](#vscode)
-- [TODO](#todo)
-- [References](#references)
+- [macOS Ansible Playbook](#macos-ansible-playbook)
+  - [Overview](#overview)
+  - [Requirements](#requirements)
+  - [Setup](#setup)
+    - [pre-commit](#pre-commit)
+  - [Bootstrap](#bootstrap)
+  - [Roles](#roles)
+    - [Azure CLI](#azure-cli)
+    - [Brew](#brew)
+    - [Git](#git)
+    - [Ruby](#ruby)
+    - [ZSH](#zsh)
+    - [VSCode](#vscode)
+  - [TODO](#todo)
+  - [References](#references)
 
-# Overview
+## Overview
 
-The purpose of this Ansible playbook is to configure OSX (where possible, and where it makes sense) through immutable
-configuration management.
+The purpose of this Ansible playbook is to configure OSX (where possible, and 
+where it makes sense) through immutableconfiguration management.
 
-# Bootstrap
+## Requirements
 
-The purpose of the [bootstrap.sh](./bootstrap.sh) shell script is to ensure that Brew and Ansible have been installed
-and to initiate the [playbook.yml](./playbook.yml).
+This playbook has been test on macOS 14.1.1 (23B81) on an Apple M1 Pro chip.
+
+| Tool                                   | Description                                     |
+|:---------------------------------------|:------------------------------------------------|
+| [pre-commit](https://pre-commit.com/)  | Used to ensure standards prior to commits       |
+
+## Setup
+
+### pre-commit
+
+[pre-commit](https://pre-commit.com/) is used to enforce standards on this 
+repository prior to committing any changes. This forms part of our 
+[Contributing](../CONTRIBUTING.md) standards. Please also see the 
+[pre-commit-config.yaml](../.pre-commit-config.yaml) file.
+
+```shell
+pre-commit install
+```
+
+## Bootstrap
+
+The purpose of the [bootstrap.sh](./bootstrap.sh) shell script is to ensure that 
+Brew and Ansible have been installed and to initiate the 
+[playbook.yml](./playbook.yml).
 
 To execute, simply run the following command:
 
@@ -29,36 +54,39 @@ To execute, simply run the following command:
 sh bootstrap.sh
 ```
 
-# Roles
+## Roles
 
-## Azure CLI
+### Azure CLI
 
 This role installs azure-cli extensions.
 
-## Brew
+### Brew
 
 This role installs brew and brew cask packages.
 
-## Git
+### Git
 
 This role configures the .gitconfig file.
 
-## Ruby
+### Ruby
 
 This role installs gem packages.
 
-## ZSH
+### ZSH
 
-Install [oh my zsh](https://github.com/ohmyzsh/ohmyzsh) and configure .zshrc file
+**N.b.** ZSH is now installed by default on macOS.
 
-## VSCode
+Install [oh my zsh](https://github.com/ohmyzsh/ohmyzsh) and configure .zshrc 
+file
+
+### VSCode
 
 Copy a predefined settings.json file to VSCode user path
 
-# TODO
+## TODO
 
 Please see the [TODO](./docs/TODO.md) documentation.
 
-# References
+## References
 
 [mrlesmithjr - ansible-macos-homebrew-packages.yml](https://gist.github.com/mrlesmithjr/f3c15fdd53020a71f55c2032b8be2eda)
