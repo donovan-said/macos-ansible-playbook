@@ -1,0 +1,24 @@
+---
+vscode_extensions:
+  - amazonwebservices.aws-toolkit-vscode
+  - antfu.icons-carbon
+  - eamodio.gitlens
+  - eriklynd.json-tools
+  - golang.go
+  - ivory-lab.jenkinsfile-support
+  - miguelsolorio.fluent-icons
+  - monokai.theme-monokai-pro-vscode
+  - ms-azure-devops.azure-pipelines
+  - ms-azuretools.vscode-docker
+  - ms-python.debugpy
+  - ms-python.isort
+  - ms-python.python
+  - ms-python.vscode-pylance
+  - ms-vscode-remote.remote-containers
+  - ms-vscode.azure-account
+  - ms-vscode.makefile-tools
+  - ms-vscode.powershell
+  - njpwerner.autodocstring
+  - pkief.material-icon-theme
+  - redhat.vscode-yaml
+  - yzhang.markdown-all-in-one

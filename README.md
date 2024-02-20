@@ -1,27 +1,36 @@
-# MacBook Ansible Playbook
+# macOS Ansible Playbook
 
-- [MacBook Ansible Playbook](#macbook-ansible-playbook)
-- [Overview](#overview)
-- [Bootstrap](#bootstrap)
-- [Roles](#roles)
-  * [Azure CLI](#azure-cli)
-  * [Brew](#brew)
-  * [Git](#git)
-  * [Ruby](#ruby)
-  * [ZSH](#zsh)
-  * [VSCode](#vscode)
-- [TODO](#todo)
-- [References](#references)
+> [!WARNING]
+> This playbook is still experimental and under development. Please review the
+> codebase before running this on your system.
 
-# Overview
+- [macOS Ansible Playbook](#macos-ansible-playbook)
+  - [Overview](#overview)
+  - [Bootstrap](#bootstrap)
+  - [Roles](#roles)
+    - [Azure CLI](#azure-cli)
+    - [Brew](#brew)
+    - [Git](#git)
+    - [Ruby](#ruby)
+    - [ZSH](#zsh)
+    - [VSCode](#vscode)
+      - [settings.json](#settingsjson)
+      - [Extensions](#extensions)
+  - [Improvements \& TODOs](#improvements--todos)
+  - [References](#references)
 
-The purpose of this Ansible playbook is to configure OSX (where possible, and where it makes sense) through immutable
-configuration management.
+## Overview
 
-# Bootstrap
+The purpose of this Ansible playbook is to configure OSX (where possible, and 
+where it makes sense) through immutable configuration management.
 
-The purpose of the [bootstrap.sh](./bootstrap.sh) shell script is to ensure that Brew and Ansible have been installed
-and to initiate the [playbook.yml](./playbook.yml).
+This playbook has been test on macOS 14.1.1 (23B81) on an Apple M1 Pro chip.
+
+## Bootstrap
+
+The purpose of the [bootstrap.sh](./bootstrap.sh) shell script is to ensure that 
+Brew and Ansible have been installed and to initiate the 
+[playbook.yml](./playbook.yml).
 
 To execute, simply run the following command:
 
@@ -29,36 +38,72 @@ To execute, simply run the following command:
 sh bootstrap.sh
 ```
 
-# Roles
+## Roles
 
-## Azure CLI
+### Azure CLI
 
 This role installs azure-cli extensions.
 
-## Brew
+### Brew
 
 This role installs brew and brew cask packages.
 
-## Git
+### Git
 
 This role configures the .gitconfig file.
 
-## Ruby
+### Ruby
 
 This role installs gem packages.
 
-## ZSH
+### ZSH
 
-Install [oh my zsh](https://github.com/ohmyzsh/ohmyzsh) and configure .zshrc file
+**N.b.** ZSH is now installed by default on macOS.
 
-## VSCode
+Install [oh my zsh](https://github.com/ohmyzsh/ohmyzsh) and configure .zshrc 
+file
+
+### VSCode
+
+#### settings.json
 
 Copy a predefined settings.json file to VSCode user path
 
-# TODO
+#### Extensions
+
+Install the following extensions:
+
+| Category         | Extension                                                                                                | Name                                 |
+| ---------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------ |
+| VSCode Aesthetic | [Monokau Prod](https://monokai.pro/vscode)                                                               | monokai.theme-monokai-pro-vscode     |
+| VSCode Aesthetic | [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)     | pkief.material-icon-theme            |
+| VSCode Aesthetic | [Fluent Icon](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons)            | miguelsolorio.fluent-icons           |
+| VSCode Aesthetic | [Carbon Icon](https://marketplace.visualstudio.com/items?itemName=antfu.icons-carbon)                    | antfu.icons-carbon                   |
+| Git              | [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)                           | eamodio.gitlens                      |
+| AWS              | [AWS Toolkit](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode)  | amazonwebservices.aws-toolkit-vscode |
+| Azure            | [Azure Account](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-account)             | ms-vscode.azure-account              |
+| Azure            | [Azure Pipelines](https://marketplace.visualstudio.com/items?itemName=ms-azure-devops.azure-pipelines)   | ms-azure-devops.azure-pipelines      |
+| Azure/Windows    | [PowerShell](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)                   | ms-vscode.powershell                 |
+| Languages        | [Go](https://marketplace.visualstudio.com/items?itemName=golang.Go)                                      | golang.go                            |
+| Languages        | [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)                           | ms-python.python                     |
+| Languages        | [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)                  | ms-python.vscode-pylance             |
+| Languages        | [Python issort](https://marketplace.visualstudio.com/items?itemName=ms-python.isort)                     | ms-python.isort                      |
+| Languages        | [Python Debugger](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy)                 | ms-python.debugpy                    |
+| Languages        | [autoDocstring](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)             | njpwerner.autodocstring              |
+| Languages        | [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)                           | redhat.vscode-yaml                   |
+| Languages        | [JSON Tools](https://marketplace.visualstudio.com/items?itemName=eriklynd.json-tools)                    | eriklynd.json-tools                  |
+| Languages        | [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)    | yzhang.markdown-all-in-one           |
+| Languages        | [JenkinsFile Support](https://marketplace.visualstudio.com/items?itemName=ivory-lab.jenkinsfile-support) | ivory-lab.jenkinsfile-support        |
+| Languages        | [Makefile Tools](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)         | ms-vscode.makefile-tools             |
+| Docker           | [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) | ms-vscode-remote.remote-containers   |
+| Docker           | [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)                | ms-azuretools.vscode-docker          |
+
+
+## Improvements & TODOs
 
 Please see the [TODO](./docs/TODO.md) documentation.
 
-# References
+## References
 
 [mrlesmithjr - ansible-macos-homebrew-packages.yml](https://gist.github.com/mrlesmithjr/f3c15fdd53020a71f55c2032b8be2eda)
+[dev.to - Awesome VS Code setup](https://dev.to/pas8/best-vs-code-setup-20fe)

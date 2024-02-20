@@ -2,11 +2,11 @@
 - hosts: localhost
   connection: local
   vars_files:
+    - "./vars/azure.yml"
     - "./vars/general.yml"
     - "./vars/brew.yml"
     - "./vars/ruby.yml"
-#    - "./vars/wip_python.yml"
-#    - "./vars/wip_npm.yml"
+    - "./vars/vscode.yml"
   roles:
     - azure_cli
     - brew
@@ -14,4 +14,3 @@
     - git
     - zsh
     - vscode
-...
