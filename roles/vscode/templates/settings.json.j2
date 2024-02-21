@@ -1,17 +1,12 @@
 {
-    "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
-    "terminal.integrated.fontSize": 13,
-    "terminal.integrated.lineHeight": 1,
-    "terminal.external.osxExec": "iTerm.app",
-    "security.workspace.trust.untrustedFiles": "open",
-    "workbench.startupEditor": "none",
-    "workbench.preferredHighContrastLightColorTheme": "Monokai",
-    "workbench.preferredLightColorTheme": "Monokai",
-    "workbench.preferredHighContrastColorTheme": "Default Dark Modern",
     "workbench.colorTheme": "Monokai Pro",
     "workbench.productIconTheme": "fluent-icons",
     "workbench.iconTheme": "material-icon-theme",
+    "workbench.preferredHighContrastLightColorTheme": "Monokai",
+    "workbench.preferredLightColorTheme": "Monokai",
+    "workbench.preferredHighContrastColorTheme": "Default Dark Modern",
     "workbench.editor.enablePreview": false,
+    "workbench.startupEditor": "none",
     // Add "workbench.settings.editor": "json" to your settings.json file.
     // This will make it so that menu File → Preferences → Settings or ⌘ + ,
     // opens your settings.json file by default.
@@ -25,21 +20,25 @@
         80,
         120
     ],
-    // remove any code actions that are configured to run on save
-    "editor.codeActionsOnSave": [],
+    "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.lineHeight": 1,
+    "terminal.external.osxExec": "iTerm.app",
+    "security.workspace.trust.untrustedFiles": "open",
     "settingsSync.ignoredSettings": [],
     "redhat.telemetry.enabled": true,
+    "files.autoSave": "afterDelay",
     "python.venvPath": "/Users/donovansaid/.local/share/virtualenvs/",
     "[go][go.mod]": {
         "editor.codeActionsOnSave": {
             "source.organizeImports": "explicit"
         },
-        "editor.formatOnSave": true,
         "editor.defaultFormatter": "golang.go",
+        "editor.tabSize": 8
     },
     "go.delveConfig": {},
     "[python]": {
-        "editor.formatOnType": true
+        "editor.formatOnSave": true
     },
     "[json]": {
         "editor.tabSize": 2

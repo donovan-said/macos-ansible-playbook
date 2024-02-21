@@ -17,6 +17,12 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.9.0]
+
+### Changed
+
+* AutoSave to vscode settings.json file
+
 ## [0.8.0]
 
 ### Added
