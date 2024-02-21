@@ -17,6 +17,13 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.10.0]
+
+### Changed
+
+* I've readded pre-commit via brew, as this will be used by multiple languages 
+  and I don't want it managed by a particular language's package manager.
+
 ## [0.9.0]
 
 ### Changed
