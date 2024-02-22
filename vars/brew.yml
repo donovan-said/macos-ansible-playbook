@@ -29,6 +29,7 @@ brew_packages:
   - jq
   - kubectl
   - mkcert
+  - mongosh
   - pipenv
   - postgresql
   - pyenv

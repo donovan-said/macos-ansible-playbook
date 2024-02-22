@@ -17,6 +17,12 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.11.0]
+
+### Added
+
+- mongosh to brew installation
+
 ## [0.10.0]
 
 ### Changed
