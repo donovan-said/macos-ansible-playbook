@@ -8,16 +8,10 @@
   - [Overview](#overview)
   - [Bootstrap](#bootstrap)
   - [Roles](#roles)
-    - [Azure CLI](#azure-cli)
-    - [Brew](#brew)
-    - [Git](#git)
-    - [Ruby](#ruby)
-    - [ZSH](#zsh)
-    - [VSCode](#vscode)
-      - [settings.json](#settingsjson)
-      - [Extensions](#extensions)
   - [Improvements \& TODOs](#improvements--todos)
   - [References](#references)
+  - [Appendix](#appendix)
+    - [VSCode Extension](#vscode-extension)
 
 ## Overview
 
@@ -40,38 +34,30 @@ sh bootstrap.sh
 
 ## Roles
 
-### Azure CLI
+> [!NOTE]
+> ZSH is now installed by default on macOS.
 
-This role installs azure-cli extensions.
+| Role                            | Description                                                                                                                                      |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [Azure CLI](./roles/azure_cli/) | This role installs azure-cli extensions.                                                                                                         |
+| [Brew](./roles/brew/)           | This role installs brew and brew cask packages.                                                                                                  |
+| [Git](./roles/git/)             | This role configures the .gitconfig file.                                                                                                        |
+| [Ruby](./roles/ruby/)           | This role installs gem packages.                                                                                                                 |
+| [Zsh](./roles/zsh/)             | Install [oh my zsh](https://github.com/ohmyzsh/ohmyzsh) and configure .zshrc file                                                                |
+| [VSCode](./roles/vscode/)       | Copy a predefined settings.json file to VSCode user path and installs extensions. Please see [appendix](#vscode-extension)for list of extensions |
 
-### Brew
+## Improvements & TODOs
 
-This role installs brew and brew cask packages.
+Please see the [TODO](./docs/TODO.md) documentation.
 
-### Git
+## References
 
-This role configures the .gitconfig file.
+[mrlesmithjr - ansible-macos-homebrew-packages.yml](https://gist.github.com/mrlesmithjr/f3c15fdd53020a71f55c2032b8be2eda)
+[dev.to - Awesome VS Code setup](https://dev.to/pas8/best-vs-code-setup-20fe)
 
-### Ruby
+## Appendix
 
-This role installs gem packages.
-
-### ZSH
-
-**N.b.** ZSH is now installed by default on macOS.
-
-Install [oh my zsh](https://github.com/ohmyzsh/ohmyzsh) and configure .zshrc 
-file
-
-### VSCode
-
-#### settings.json
-
-Copy a predefined settings.json file to VSCode user path
-
-#### Extensions
-
-Install the following extensions:
+### VSCode Extension
 
 | Category         | Extension                                                                                                | Name                                 |
 | ---------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------ |
@@ -100,11 +86,3 @@ Install the following extensions:
 | Databases        | [MongoDB](https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode)                    | mongodb.mongodb-vscode               |
 
 
-## Improvements & TODOs
-
-Please see the [TODO](./docs/TODO.md) documentation.
-
-## References
-
-[mrlesmithjr - ansible-macos-homebrew-packages.yml](https://gist.github.com/mrlesmithjr/f3c15fdd53020a71f55c2032b8be2eda)
-[dev.to - Awesome VS Code setup](https://dev.to/pas8/best-vs-code-setup-20fe)

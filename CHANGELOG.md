@@ -17,6 +17,16 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.13.0]
+
+### Added
+
+- LICENSE
+  
+### Changed
+
+- Updated REAME to be clearer to understand
+
 ## [0.12.0]
 
 ### Added
