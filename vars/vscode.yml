@@ -7,6 +7,7 @@ vscode_extensions:
   - golang.go
   - ivory-lab.jenkinsfile-support
   - miguelsolorio.fluent-icons
+  - mongodb.mongodb-vscode
   - monokai.theme-monokai-pro-vscode
   - ms-azure-devops.azure-pipelines
   - ms-azuretools.vscode-docker
