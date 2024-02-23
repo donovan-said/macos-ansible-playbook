@@ -17,6 +17,16 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.12.0]
+
+### Added
+
+- MongoDD extension
+  
+### Changed
+
+- Updated settings.json for MongoDB extension
+
 ## [0.11.0]
 
 ### Added
