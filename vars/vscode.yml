@@ -8,7 +8,7 @@ vscode_extensions:
   - ivory-lab.jenkinsfile-support
   - miguelsolorio.fluent-icons
   - mongodb.mongodb-vscode
-  - monokai.theme-monokai-pro-vscode
+  - dracula-theme.theme-dracula
   - ms-azure-devops.azure-pipelines
   - ms-azuretools.vscode-docker
   - ms-python.debugpy

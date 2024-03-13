@@ -18,4 +18,3 @@ ansible-playbook playbook.yml
 
 zsh
 source /$HOME/.zshrc
-

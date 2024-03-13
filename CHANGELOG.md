@@ -17,6 +17,13 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.14.0]
+
+### Changed
+
+- Vscode colour theme to "Dracula"
+- VSCode font family to "Fira Code"
+
 ## [0.13.0]
 
 ### Added

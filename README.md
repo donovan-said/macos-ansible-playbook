@@ -61,7 +61,7 @@ Please see the [TODO](./docs/TODO.md) documentation.
 
 | Category         | Extension                                                                                                | Name                                 |
 | ---------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------ |
-| VSCode Aesthetic | [Monokau Prod](https://monokai.pro/vscode)                                                               | monokai.theme-monokai-pro-vscode     |
+| VSCode Aesthetic | [Dracula](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)               | dracula-theme.theme-dracula          |
 | VSCode Aesthetic | [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)     | pkief.material-icon-theme            |
 | VSCode Aesthetic | [Fluent Icon](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons)            | miguelsolorio.fluent-icons           |
 | VSCode Aesthetic | [Carbon Icon](https://marketplace.visualstudio.com/items?itemName=antfu.icons-carbon)                    | antfu.icons-carbon                   |
