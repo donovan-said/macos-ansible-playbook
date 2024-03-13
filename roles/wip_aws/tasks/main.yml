@@ -1,8 +1,0 @@
----
-- name: Copy config to .aws directory
-  ansible.builtin.template:
-    src: "{{ role_path }}/templates/config.j2"
-    dest: "{{ lookup('ansible.builtin.env', 'HOME') }}/.aws/config"
-    owner: "{{ lookup('ansible.builtin.env', 'USER') }}"
-    group: "{{ user_group }}"
-...
