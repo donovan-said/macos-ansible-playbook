@@ -22,6 +22,7 @@ brew_packages:
   - cdk8s
   - cdktf
   - chruby
+  - eksctl
   - go
   - hadolint
   - helm
