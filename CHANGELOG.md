@@ -17,6 +17,17 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.15.0]
+
+### Changed
+
+- Moved docker desktop to casks
+
+### Added
+
+- Additional appendix docs for brew packages
+- Alias to zsh for kubectl
+
 ## [0.14.0]
 
 ### Changed

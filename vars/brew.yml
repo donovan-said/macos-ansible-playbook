@@ -1,6 +1,7 @@
 ---
 brew_cask_packages:
   - aws-vpn-client
+  - docker
   - iterm2
   - keepingyouawake
   - microsoft-teams
@@ -21,7 +22,6 @@ brew_packages:
   - cdk8s
   - cdktf
   - chruby
-  - docker
   - go
   - hadolint
   - helm
@@ -31,7 +31,7 @@ brew_packages:
   - mkcert
   - mongosh
   - pipenv
-  - postgresql
+  - postgresql@14
   - pyenv
   - pre-commit
   - ruby
