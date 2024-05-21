@@ -17,6 +17,12 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.16.0]
+
+### Added
+
+- eksctl brew formula
+
 ## [0.15.0]
 
 ### Changed

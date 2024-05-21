@@ -76,6 +76,7 @@ Please see the [TODO](./docs/TODO.md) documentation.
 | azure-cli             | Formulae | -           |
 | cdk8s                 | Formulae | -           |
 | chruby                | Formulae | -           |
+| eksctl                | Formulae | -           |
 | go                    | Formulae | -           |
 | hadolint              | Formulae | -           |
 | helm                  | Formulae | -           |
