@@ -9,9 +9,10 @@
   - [Bootstrap](#bootstrap)
   - [Roles](#roles)
   - [Improvements \& TODOs](#improvements--todos)
-  - [References](#references)
   - [Appendix](#appendix)
+    - [Brew](#brew)
     - [VSCode Extension](#vscode-extension)
+  - [References](#references)
 
 ## Overview
 
@@ -37,25 +38,63 @@ sh bootstrap.sh
 > [!NOTE]
 > ZSH is now installed by default on macOS.
 
-| Role                            | Description                                                                                                                                      |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [Azure CLI](./roles/azure_cli/) | This role installs azure-cli extensions.                                                                                                         |
-| [Brew](./roles/brew/)           | This role installs brew and brew cask packages.                                                                                                  |
-| [Git](./roles/git/)             | This role configures the .gitconfig file.                                                                                                        |
-| [Ruby](./roles/ruby/)           | This role installs gem packages.                                                                                                                 |
-| [Zsh](./roles/zsh/)             | Install [oh my zsh](https://github.com/ohmyzsh/ohmyzsh) and configure .zshrc file                                                                |
-| [VSCode](./roles/vscode/)       | Copy a predefined settings.json file to VSCode user path and installs extensions. Please see [appendix](#vscode-extension)for list of extensions |
+| Role                            | Description                                                                                                                          |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| [Azure CLI](./roles/azure_cli/) | This role installs azure-cli extensions.                                                                                             |
+| [Brew](./roles/brew/)           | This role installs brew and brew cask packages.                                                                                      |
+| [Git](./roles/git/)             | This role configures the .gitconfig file.                                                                                            |
+| [Ruby](./roles/ruby/)           | This role installs gem packages.                                                                                                     |
+| [Zsh](./roles/zsh/)             | Install [oh my zsh](https://github.com/ohmyzsh/ohmyzsh) and configure .zshrc file                                                    |
+| [VSCode](./roles/vscode/)       | Configure settings.json file to VSCode user path and installs extensions (See [appendix](#vscode-extension) for list of extensions). |
 
 ## Improvements & TODOs
 
 Please see the [TODO](./docs/TODO.md) documentation.
 
-## References
-
-[mrlesmithjr - ansible-macos-homebrew-packages.yml](https://gist.github.com/mrlesmithjr/f3c15fdd53020a71f55c2032b8be2eda)
-[dev.to - Awesome VS Code setup](https://dev.to/pas8/best-vs-code-setup-20fe)
-
 ## Appendix
+
+### Brew
+
+| Package               | Type     | Description |
+| --------------------- | -------- | ----------- |
+| aws-vpn-client        | Cask     | -           |
+| iterm2                | Cask     | -           |
+| keepingyouawake       | Cask     | -           |
+| microsoft-teams       | Cask     | -           |
+| openlens              | Cask     | -           |
+| powershell            | Cask     | -           |
+| slack                 | Cask     | -           |
+| spotify               | Cask     | -           |
+| the-unarchiver        | Cask     | -           |
+| visual-studio-code    | Cask     | -           |
+| ansible               | Formulae | -           |
+| ansible-lint          | Formulae | -           |
+| aws-cdk               | Formulae | -           |
+| aws-iam-authenticator | Formulae | -           |
+| awscli                | Formulae | -           |
+| azure-cli             | Formulae | -           |
+| cdk8s                 | Formulae | -           |
+| chruby                | Formulae | -           |
+| docker                | Formulae | -           |
+| go                    | Formulae | -           |
+| hadolint              | Formulae | -           |
+| helm                  | Formulae | -           |
+| istioctl              | Formulae | -           |
+| jq                    | Formulae | -           |
+| kubectl               | Formulae | -           |
+| mkcert                | Formulae | -           |
+| mongosh               | Formulae | -           |
+| pipenv                | Formulae | -           |
+| postgresql            | Formulae | -           |
+| pyenv                 | Formulae | -           |
+| pre-commit            | Formulae | -           |
+| ruby                  | Formulae | -           |
+| ruby-install          | Formulae | -           |
+| terraform             | Formulae | -           |
+| tree                  | Formulae | -           |
+| vault                 | Formulae | -           |
+| wget                  | Formulae | -           |
+| websocat              | Formulae | -           |
 
 ### VSCode Extension
 
@@ -85,4 +124,7 @@ Please see the [TODO](./docs/TODO.md) documentation.
 | Docker           | [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)                | ms-azuretools.vscode-docker          |
 | Databases        | [MongoDB](https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode)                    | mongodb.mongodb-vscode               |
 
+## References
 
+[mrlesmithjr - ansible-macos-homebrew-packages.yml](https://gist.github.com/mrlesmithjr/f3c15fdd53020a71f55c2032b8be2eda)
+[dev.to - Awesome VS Code setup](https://dev.to/pas8/best-vs-code-setup-20fe)
