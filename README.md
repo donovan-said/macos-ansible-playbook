@@ -58,6 +58,7 @@ Please see the [TODO](./docs/TODO.md) documentation.
 | Package               | Type     | Description |
 | --------------------- | -------- | ----------- |
 | aws-vpn-client        | Cask     | -           |
+| docker                | Cask     | -           |
 | iterm2                | Cask     | -           |
 | keepingyouawake       | Cask     | -           |
 | microsoft-teams       | Cask     | -           |
@@ -75,7 +76,6 @@ Please see the [TODO](./docs/TODO.md) documentation.
 | azure-cli             | Formulae | -           |
 | cdk8s                 | Formulae | -           |
 | chruby                | Formulae | -           |
-| docker                | Formulae | -           |
 | go                    | Formulae | -           |
 | hadolint              | Formulae | -           |
 | helm                  | Formulae | -           |
@@ -85,7 +85,7 @@ Please see the [TODO](./docs/TODO.md) documentation.
 | mkcert                | Formulae | -           |
 | mongosh               | Formulae | -           |
 | pipenv                | Formulae | -           |
-| postgresql            | Formulae | -           |
+| postgresql@14         | Formulae | -           |
 | pyenv                 | Formulae | -           |
 | pre-commit            | Formulae | -           |
 | ruby                  | Formulae | -           |
