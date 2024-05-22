@@ -1,5 +1,11 @@
 # macOS Ansible Playbook
 
+<p align="center">
+    <img src="./imgs/apple_logo.png" width="250" height="300"> 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+    <img src="./imgs/ansible_logo.png" width="300" height="290">
+</p>
+
 > [!WARNING]
 > This playbook is still experimental and under development. Please review the
 > codebase before running this on your system.
@@ -35,17 +41,18 @@ sh bootstrap.sh
 
 ## Roles
 
-> [!NOTE]
-> ZSH is now installed by default on macOS.
+| Role                            | Description                                                                         |
+| ------------------------------- | ----------------------------------------------------------------------------------- |
+| [Azure CLI](./roles/azure_cli/) | Installs azure-cli extensions                                                       |
+| [Brew](./roles/brew/)           | Installs brew and brew cask packages                                                |
+| [Git](./roles/git/)             | Configures the .gitconfig file                                                      |
+| [Ruby](./roles/ruby/)           | Installs gem packages                                                               |
+| [Zsh](./roles/zsh/)             | Installs [oh my zsh](https://github.com/ohmyzsh/ohmyzsh) and configures .zshrc file |
+| [VSCode](./roles/vscode/)       | Configures vscode settings.json file and installs extensions                        |
 
-| Role                            | Description                                                                                                                          |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| [Azure CLI](./roles/azure_cli/) | This role installs azure-cli extensions.                                                                                             |
-| [Brew](./roles/brew/)           | This role installs brew and brew cask packages.                                                                                      |
-| [Git](./roles/git/)             | This role configures the .gitconfig file.                                                                                            |
-| [Ruby](./roles/ruby/)           | This role installs gem packages.                                                                                                     |
-| [Zsh](./roles/zsh/)             | Install [oh my zsh](https://github.com/ohmyzsh/ohmyzsh) and configure .zshrc file                                                    |
-| [VSCode](./roles/vscode/)       | Configure settings.json file to VSCode user path and installs extensions (See [appendix](#vscode-extension) for list of extensions). |
+> [!NOTE]
+> * ZSH is now installed by default on macOS.
+> * See [appendix](#appendix) for list of brew packages and vscode extensions
 
 ## Improvements & TODOs
 
