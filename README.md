@@ -41,9 +41,6 @@ sh bootstrap.sh
 
 ## Roles
 
-> [!NOTE]
-> ZSH is now installed by default on macOS.
-
 | Role                            | Description                                                                         |
 | ------------------------------- | ----------------------------------------------------------------------------------- |
 | [Azure CLI](./roles/azure_cli/) | Installs azure-cli extensions                                                       |
@@ -54,7 +51,8 @@ sh bootstrap.sh
 | [VSCode](./roles/vscode/)       | Configures vscode settings.json file and installs extensions                        |
 
 > [!NOTE]
-> See [appendix](#appendix) for list of brew packages and vscode extensions
+> * ZSH is now installed by default on macOS.
+> * See [appendix](#appendix) for list of brew packages and vscode extensions
 
 ## Improvements & TODOs
 

@@ -17,6 +17,13 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.17.0]
+
+### Added
+
+- Apple and Ansible logos
+- Updated roles table to be more concise
+
 ## [0.16.0]
 
 ### Added
