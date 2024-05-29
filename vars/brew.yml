@@ -15,6 +15,7 @@ brew_cask_packages:
 brew_packages:
   - ansible
   - ansible-lint
+  - argo
   - aws-cdk
   - aws-iam-authenticator
   - awscli
@@ -31,6 +32,7 @@ brew_packages:
   - kubectl
   - mkcert
   - mongosh
+  - opentofu
   - pipenv
   - postgresql@14
   - pyenv
