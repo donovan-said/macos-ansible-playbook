@@ -17,6 +17,12 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.18.0]
+
+### Added
+
+- Argo and OpenTofu
+
 ## [0.17.0]
 
 ### Added

@@ -77,6 +77,7 @@ Please see the [TODO](./docs/TODO.md) documentation.
 | visual-studio-code    | Cask     | -           |
 | ansible               | Formulae | -           |
 | ansible-lint          | Formulae | -           |
+| argo                  | Formulae | -           |
 | aws-cdk               | Formulae | -           |
 | aws-iam-authenticator | Formulae | -           |
 | awscli                | Formulae | -           |
@@ -92,6 +93,7 @@ Please see the [TODO](./docs/TODO.md) documentation.
 | kubectl               | Formulae | -           |
 | mkcert                | Formulae | -           |
 | mongosh               | Formulae | -           |
+| opentofu              | Formulae | -           |
 | pipenv                | Formulae | -           |
 | postgresql@14         | Formulae | -           |
 | pyenv                 | Formulae | -           |
