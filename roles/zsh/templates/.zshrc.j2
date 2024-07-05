@@ -26,6 +26,8 @@ autoload -U +X bashcompinit && bashcompinit
 # Adding "/opt/homebrew/bin/" first, as some packages get install byb default to "/usr/local/bin" such as kubectl by
 # Docker Desktop
 
+export PATH=/opt/homebrew/bin/:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
 #-------------------------------------------------------------------------------
 
 # K8s Configuration
