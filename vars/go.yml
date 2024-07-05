@@ -1,0 +1,4 @@
+---
+golang_tools:
+  - golang.org/x/tools/cmd/goimports@latest
+  - golang.org/x/lint/golint@latest

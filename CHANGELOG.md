@@ -16,6 +16,11 @@ __Reference__:
 * [Semantic Versioning](https://semver.org/)
 
 # CHANGELOG
+9.0]
+
+### Added
+
+- Go path config to zsh and ability to install go tools
 
 ## [0.18.0]
 

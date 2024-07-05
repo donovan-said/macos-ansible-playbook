@@ -26,7 +26,8 @@ autoload -U +X bashcompinit && bashcompinit
 # Adding "/opt/homebrew/bin/" first, as some packages get install byb default to "/usr/local/bin" such as kubectl by
 # Docker Desktop
 
-export PATH=/opt/homebrew/bin/:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+
 
 #-------------------------------------------------------------------------------
 
@@ -59,6 +60,13 @@ if [ -d "/opt/homebrew/opt/ruby/bin" ]; then
   export PATH=/opt/homebrew/opt/ruby/bin:$PATH
   export PATH=`gem environment gemdir`/bin:$PATH
 fi
+
+#-------------------------------------------------------------------------------
+
+# Golang Config
+#-----------
+
+export GOPATH=$HOME/go
 
 #-------------------------------------------------------------------------------
 

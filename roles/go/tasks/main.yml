@@ -1,0 +1,4 @@
+---
+- name: Installing Golang Tools
+  shell: go install {{ item }}
+  loop: "{{ golang_tools }}"
