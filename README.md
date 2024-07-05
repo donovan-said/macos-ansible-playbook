@@ -47,6 +47,7 @@ sh bootstrap.sh
 | [Brew](./roles/brew/)           | Installs brew and brew cask packages                                                |
 | [Git](./roles/git/)             | Configures the .gitconfig file                                                      |
 | [Ruby](./roles/ruby/)           | Installs gem packages                                                               |
+| [Go](./roles/go/)               | Installs Go tools                                                                   |
 | [Zsh](./roles/zsh/)             | Installs [oh my zsh](https://github.com/ohmyzsh/ohmyzsh) and configures .zshrc file |
 | [VSCode](./roles/vscode/)       | Configures vscode settings.json file and installs extensions                        |
 
