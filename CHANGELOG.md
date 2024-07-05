@@ -16,7 +16,8 @@ __Reference__:
 * [Semantic Versioning](https://semver.org/)
 
 # CHANGELOG
-9.0]
+
+## [0.19.0]
 
 ### Added
 
