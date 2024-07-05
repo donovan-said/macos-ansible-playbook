@@ -17,6 +17,12 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.19.0]
+
+### Added
+
+- Go path config to zsh and ability to install go tools
+
 ## [0.18.0]
 
 ### Added

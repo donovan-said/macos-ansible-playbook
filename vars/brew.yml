@@ -25,6 +25,7 @@ brew_packages:
   - chruby
   - eksctl
   - go
+  - golangci-lint
   - hadolint
   - helm
   - istioctl

@@ -6,11 +6,13 @@
     - "./vars/general.yml"
     - "./vars/brew.yml"
     - "./vars/ruby.yml"
+    - "./vars/go.yml"
     - "./vars/vscode.yml"
   roles:
     - azure_cli
     - brew
     - ruby
+    - go
     - git
     - zsh
     - vscode
