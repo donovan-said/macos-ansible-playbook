@@ -17,6 +17,13 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.19.1]
+
+### Fixed
+
+- GOPATH in PATH. The issue was that I was setting the GOPATH, when in fact, I should only have been adding the 
+  $GOPATH/bin to the PATH itself.
+
 ## [0.19.0]
 
 ### Added
