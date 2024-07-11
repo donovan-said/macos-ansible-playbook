@@ -1,10 +1,5 @@
 # TODO Tasks
 
-* iTerm
-    * Profile -> Test -> Change font to Meslo LG L for Powerline
-    * Profile -> Colors -> Load Presets
-
-
 ## ITerm
 
 ### Colour Prefix
