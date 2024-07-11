@@ -33,6 +33,7 @@ brew_packages:
   - kubectl
   - mkcert
   - mongosh
+  - nvm
   - opentofu
   - pipenv
   - postgresql@14

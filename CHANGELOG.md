@@ -17,6 +17,17 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.20.0]
+
+### Added
+
+* nvm to the list of brew packages
+
+### Removed
+
+* wip node role as packages should be installed via specific repositories
+* wip python role as this is listed in the TODO docs
+
 ## [0.19.1]
 
 ### Fixed
