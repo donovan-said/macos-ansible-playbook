@@ -1,14 +1,16 @@
 ---
 vscode_extensions:
+  - amazonwebservices.amazon-q-vscode
   - amazonwebservices.aws-toolkit-vscode
   - antfu.icons-carbon
+  - dbaeumer.vscode-eslint
+  - dracula-theme.theme-dracula
   - eamodio.gitlens
   - eriklynd.json-tools
   - golang.go
   - ivory-lab.jenkinsfile-support
   - miguelsolorio.fluent-icons
   - mongodb.mongodb-vscode
-  - dracula-theme.theme-dracula
   - ms-azure-devops.azure-pipelines
   - ms-azuretools.vscode-docker
   - ms-python.debugpy
