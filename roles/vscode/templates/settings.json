@@ -4,22 +4,15 @@
     "workbench.iconTheme": "material-icon-theme",
     "workbench.editor.enablePreview": false,
     "workbench.startupEditor": "none",
-    // Add "workbench.settings.editor": "json" to your settings.json file.
-    // This will make it so that menu File → Preferences → Settings or ⌘ + ,
-    // opens your settings.json file by default.
     "workbench.settings.editor": "json",
-    // Font Settings
     "editor.fontFamily": "Fira Code",
     "editor.fontSize": 12,
     "editor.fontLigatures": true,
-    // Tab Settingss
     "editor.insertSpaces": true,
     "editor.tabSize": 4,
-    // Format Settings
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "editor.formatOnType": true,
-    // Ruler Settings
     "editor.rulers": [
         80,
         120

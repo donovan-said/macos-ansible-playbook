@@ -17,6 +17,16 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.21.0]
+
+### Added
+
+* Sample .vscode config for an number of languages
+
+### Changed
+
+* Split READMEs out to their own roles with a reference in the root README
+
 ## [0.20.0]
 
 ### Added
