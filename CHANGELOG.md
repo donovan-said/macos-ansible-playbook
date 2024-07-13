@@ -19,6 +19,12 @@ __Reference__:
 
 ## [0.21.0]
 
+### Changed
+
+* zshrc C/C++ config
+
+## [0.21.0]
+
 ### Added
 
 * Sample .vscode config for an number of languages
