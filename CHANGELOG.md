@@ -17,6 +17,12 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.22.1]
+
+### Fixed
+
+* Initial brew path, which needs to be hardcoded
+
 ## [0.22.0]
 
 ### Changed
