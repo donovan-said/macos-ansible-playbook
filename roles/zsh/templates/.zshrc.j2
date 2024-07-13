@@ -23,10 +23,10 @@ autoload -U +X bashcompinit && bashcompinit
 # PATH
 #-----------
 
-# Adding "/opt/homebrew/bin/" first, as some packages get install byb default to "/usr/local/bin" such as kubectl by
+# Adding "/opt/homebrew/bin/" first, as some packages get install by default to "/usr/local/bin" such as kubectl by
 # Docker Desktop
 
-export PATH=/opt/homebrew/bin/:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+export PATH=$(brew --prefix)/bin/:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
 #-------------------------------------------------------------------------------
 
@@ -51,15 +51,15 @@ eval "$(pyenv init --path)"
 
 # Add the following to your shell profile e.g. ~/.profile or ~/.zshrc:
 export NVM_DIR="$HOME/.nvm"
-[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
-[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+[ -s "$(brew --prefix)/opt/nvm/nvm.sh" ] && \. "$(brew --prefix)/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm" ] && \. "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 #-------------------------------------------------------------------------------
 
 # Ruby Config
 #-----------
-if [ -d "/opt/homebrew/opt/ruby/bin" ]; then
-  export PATH=/opt/homebrew/opt/ruby/bin:$PATH
+if [ -d "$(brew --prefix)/opt/ruby/bin" ]; then
+  export PATH=$(brew --prefix)/opt/ruby/bin:$PATH
   export PATH=`gem environment gemdir`/bin:$PATH
 fi
 
@@ -72,11 +72,12 @@ export PATH=$PATH:$GOPATH/bin
 
 #-------------------------------------------------------------------------------
 
-# Requirement for M1 Chip
+# C/C++ Config
 #-----------
 
-export LDFLAGS="-L/opt/homebrew/opt/openssl@1.1/lib"
-export CPPFLAGS="-I/opt/homebrew/opt/openssl@1.1/include"
+# https://github.com/haf/macos/blob/main/dotfiles/.env.zsh
 
-export C_INCLUDE_PATH=/opt/homebrew/Cellar/librdkafka/1.9.0/include
-export LIBRARY_PATH=/opt/homebrew/Cellar/librdkafka/1.9.0/lib
+export LDFLAGS="-L$(brew --prefix)/opt/openssl@1.1/lib"
+export CPPFLAGS="-I$(brew --prefix)/opt/openssl@1.1/include"
+export C_INCLUDE_PATH=$(brew --prefix)/include
+export LIBRARY_PATH="$(brew --prefix)/lib:/usr/lib"

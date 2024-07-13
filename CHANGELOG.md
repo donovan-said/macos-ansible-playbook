@@ -17,6 +17,12 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.22.0]
+
+### Changed
+
+* zshrc C/C++ config
+
 ## [0.21.0]
 
 ### Added
