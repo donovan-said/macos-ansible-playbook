@@ -7,6 +7,7 @@ vscode_extensions:
   - dracula-theme.theme-dracula
   - eamodio.gitlens
   - eriklynd.json-tools
+  - esbenp.prettier-vscode
   - golang.go
   - ivory-lab.jenkinsfile-support
   - miguelsolorio.fluent-icons
