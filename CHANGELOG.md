@@ -17,6 +17,18 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.24.0]
+
+### Added
+
+* .editorconfig
+* .gitattributes
+* CODE_OF_CONDUCT
+* redhat.ansible extension
+* editorconfig.editorconfig extension
+* .vscode/ config
+* Minor refactoring
+
 ## [0.23.0]
 
 ### Added
@@ -60,7 +72,7 @@ __Reference__:
 
 ### Fixed
 
-- GOPATH in PATH. The issue was that I was setting the GOPATH, when in fact, I should only have been adding the 
+- GOPATH in PATH. The issue was that I was setting the GOPATH, when in fact, I should only have been adding the
   $GOPATH/bin to the PATH itself.
 
 ## [0.19.0]
@@ -111,7 +123,7 @@ __Reference__:
 ### Added
 
 - LICENSE
-  
+
 ### Changed
 
 - Updated REAME to be clearer to understand
@@ -121,7 +133,7 @@ __Reference__:
 ### Added
 
 - MongoDD extension
-  
+
 ### Changed
 
 - Updated settings.json for MongoDB extension
@@ -136,7 +148,7 @@ __Reference__:
 
 ### Changed
 
-* I've readded pre-commit via brew, as this will be used by multiple languages 
+* I've readded pre-commit via brew, as this will be used by multiple languages
   and I don't want it managed by a particular language's package manager.
 
 ## [0.9.0]
