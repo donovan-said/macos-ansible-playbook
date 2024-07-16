@@ -17,6 +17,12 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.24.1]
+
+### Fixed
+
+* Type in License
+
 ## [0.24.0]
 
 ### Added
