@@ -17,6 +17,12 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.23.0]
+
+### Added
+
+* esbenp.prettier-vscode extension
+
 ## [0.22.1]
 
 ### Fixed
