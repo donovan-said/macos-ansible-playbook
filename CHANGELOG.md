@@ -25,6 +25,7 @@ __Reference__:
 * .gitattributes
 * CODE_OF_CONDUCT
 * redhat.ansible extension
+* editorconfig.editorconfig extension
 * .vscode/ config
 * Minor refactoring
 
