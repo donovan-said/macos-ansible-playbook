@@ -1,6 +1,6 @@
 # VSCode Role
 
-Configures vscode settings.json file and installs extensions 
+Configures vscode settings.json file and installs extensions
 
 - [VSCode Role](#vscode-role)
   - [VSCode Extension](#vscode-extension)
@@ -9,7 +9,7 @@ Configures vscode settings.json file and installs extensions
 
 ## VSCode Extension
 
-To get a list of locally installed extensions run `code --list-extensions`
+To get a list of locally installed extensions run `code --list-extensions`  ansible-language-server
 
 | Category         | Extension                                                                                                | Name                                 |
 | ---------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------ |
@@ -23,6 +23,8 @@ To get a list of locally installed extensions run `code --list-extensions`
 | Azure            | [Azure Account](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-account)             | ms-vscode.azure-account              |
 | Azure            | [Azure Pipelines](https://marketplace.visualstudio.com/items?itemName=ms-azure-devops.azure-pipelines)   | ms-azure-devops.azure-pipelines      |
 | Azure/Windows    | [PowerShell](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)                   | ms-vscode.powershell                 |
+| Config           | [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)            | editorconfig.editorconfig            |
+| Languages        | [Ansible](https://marketplace.visualstudio.com/items?itemName=redhat.ansible)                            | redhat.ansible                       |
 | Languages        | [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)                     | dbaeumer.vscode-eslint               |
 | Languages        | [Go](https://marketplace.visualstudio.com/items?itemName=golang.Go)                                      | golang.go                            |
 | Languages        | [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)                           | ms-python.python                     |

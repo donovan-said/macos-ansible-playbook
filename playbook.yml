@@ -1,5 +1,6 @@
 ---
-- hosts: localhost
+- name: Playbook for configuring Mac
+  hosts: localhost
   connection: local
   vars_files:
     - "./vars/azure.yml"

@@ -1,6 +1,6 @@
 ---
 - name: Installing VSCode Extensions
-  shell: /bin/bash -c code --install-extension {{ item }}
+  ansible.builtin.command: /bin/bash code --install-extension {{ item }}
   loop: "{{ vscode_extensions }}"
 
 - name: Copy settings.json.j2 to vscode directory
