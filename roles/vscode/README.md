@@ -4,7 +4,6 @@ Configures vscode settings.json file and installs extensions
 
 - [VSCode Role](#vscode-role)
   - [VSCode Extension](#vscode-extension)
-  - [Programming Languages Settings](#programming-languages-settings)
   - [References](#references)
 
 ## VSCode Extension
@@ -40,16 +39,6 @@ To get a list of locally installed extensions run `code --list-extensions`  ansi
 | Docker           | [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) | ms-vscode-remote.remote-containers   |
 | Docker           | [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)                | ms-azuretools.vscode-docker          |
 | Databases        | [MongoDB](https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode)                    | mongodb.mongodb-vscode               |
-
-## Programming Languages Settings
-
-For more information on these configurations, please see: [VSCode Docs - Programming Languages](https://code.visualstudio.com/docs/languages/overview)
-
-Some sample `.vscode/` settings can be found in the [vscode_samples](./vscode_samples/) directory:
-
-* [go](./vscode_samples/go/)
-* [python](./vscode_samples/python/)
-* [typescript](./vscode_samples/typescript/)
 
 ## References
 

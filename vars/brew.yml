@@ -1,4 +1,6 @@
 ---
+homebrew_path: /opt/homebrew
+
 brew_cask_packages:
   - aws-vpn-client
   - docker

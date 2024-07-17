@@ -1,5 +1,5 @@
 ---
-- name: Copy .gitconfig to user home directory
+- name: .gitconfig Template Configuration
   ansible.builtin.template:
     src: "{{ role_path }}/templates/.gitconfig.j2"
     dest: "{{ lookup('ansible.builtin.env', 'HOME') }}/.gitconfig"

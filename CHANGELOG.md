@@ -17,6 +17,14 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.25.0]
+
+### Added
+* inventory.ini
+* ansible.cfg
+* Formatted tasks based on ansible-lint recommendations
+* .zshrc update options
+
 ## [0.24.1]
 
 ### Fixed

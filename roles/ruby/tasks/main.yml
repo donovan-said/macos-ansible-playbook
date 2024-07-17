@@ -1,6 +1,6 @@
 ---
-- name: Installing Gem Packages
-  gem:
+- name: Install Gem Packages
+  community.general.gem:
     name: "{{ item }}"
     state: present
   loop: "{{ gem_packages }}"
