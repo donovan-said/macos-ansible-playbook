@@ -1,7 +1,8 @@
 {
   "editor.formatOnSave": true,
   "files.associations": {
-        "**/*.yml": "ansible"
+        "**/*.yml": "ansible",
+        "**/*.yaml": "ansible"
     },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"

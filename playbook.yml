@@ -1,19 +1,18 @@
 ---
 - name: Playbook for configuring Mac
   hosts: localhost
-  connection: local
   vars_files:
     - "./vars/azure.yml"
     - "./vars/general.yml"
+    - "./vars/git.yml"
     - "./vars/brew.yml"
     - "./vars/ruby.yml"
-    - "./vars/go.yml"
     - "./vars/vscode.yml"
+    - "./vars/zsh.yml"
   roles:
     - azure_cli
     - brew
     - ruby
-    - go
     - git
     - zsh
     - vscode

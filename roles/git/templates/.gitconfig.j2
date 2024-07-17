@@ -1,3 +1,5 @@
+{{ ansible_managed | comment }}
+
 [user]
 	name = {{ git_username }}
 	email = {{ git_email }}
@@ -15,11 +17,8 @@
 [alias]
 	a  = add .
 	aa = add --all
-  	###############
 	c  = commit
 	cl = clone
 	ch = checkout
-	###############
 	b  = branch
-	###############
 	l  = log

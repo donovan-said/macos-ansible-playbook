@@ -1,21 +1,21 @@
 ---
 - name: Checking to see if OhMyZsh is installed
-  stat:
+  ansible.builtin.stat:
     path: "{{ lookup('ansible.builtin.env', 'HOME') }}/.oh-my-zsh/oh-my-zsh.sh"
   register: oh_my_zsh_check
 
 - name: OhMyZsh Path Exists
-  debug:
+  ansible.builtin.debug:
     msg: "OhMyZsh is already installed"
   when: oh_my_zsh_check.stat.exists
 
 - name: OhMyZsh Path Doesn't Exists
-  debug:
+  ansible.builtin.debug:
     msg: "OhMyZsh is not installed!"
   when: not oh_my_zsh_check.stat.exists
 
 - name: Installing OhMyZsh
-  shell: /bin/zsh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  ansible.builtin.command: /bin/zsh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
   when:
     - not oh_my_zsh_check.stat.exists
 
