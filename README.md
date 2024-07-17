@@ -9,6 +9,8 @@
 > [!WARNING]
 > This playbook is still experimental and under development. Please review the
 > codebase before running this on your system.
+>
+> Last tested on macOS 14.5 on an Apple M1 Pro chip.
 
 - [macOS Ansible Playbook](#macos-ansible-playbook)
   - [Overview](#overview)
@@ -21,10 +23,8 @@
 
 ## Overview
 
-The purpose of this Ansible playbook is to configure OSX (where possible, and
+The purpose of this Ansible playbook is to configure macOS (where possible, and
 where it makes sense) through immutable configuration management.
-
-This playbook has been test on macOS 14.1.1 (23B81) on an Apple M1 Pro chip.
 
 ## Bootstrap
 

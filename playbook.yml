@@ -1,14 +1,17 @@
 ---
-- name: Playbook for configuring Mac
+- name: Playbook for macOS
   hosts: localhost
+  vars:
+    # User specific variables
+    user_group: staff
+    git_username: donovan-said
+    git_email: donovan.s.said@gmail.com
   vars_files:
-    - "./vars/azure.yml"
-    - "./vars/general.yml"
-    - "./vars/git.yml"
-    - "./vars/brew.yml"
-    - "./vars/ruby.yml"
-    - "./vars/vscode.yml"
-    - "./vars/zsh.yml"
+    - './vars/azure.yml'
+    - './vars/brew.yml'
+    - './vars/ruby.yml'
+    - './vars/vscode.yml'
+    - './vars/zsh.yml'
   roles:
     - azure_cli
     - brew

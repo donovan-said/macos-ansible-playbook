@@ -14,7 +14,7 @@ fi
 
 brew install ansible
 
-ansible-playbook playbook.yml
+ansible-playbook playbook.yml -i inventory.ini
 
 zsh
 source /$HOME/.zshrc

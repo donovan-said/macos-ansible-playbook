@@ -1,7 +1,5 @@
 ---
 homebrew_path: /opt/homebrew
-install_homebrew_if_missing: false
-upgrade_homebrew_packages: false
 
 brew_cask_packages:
   - aws-vpn-client

@@ -1,28 +1,26 @@
 ---
-- name: Checking to see if OhMyZsh is installed
+- name: OhMyZsh Check
   ansible.builtin.stat:
     path: "{{ lookup('ansible.builtin.env', 'HOME') }}/.oh-my-zsh/oh-my-zsh.sh"
   register: oh_my_zsh_check
 
-- name: OhMyZsh Path Exists
+- name: OhMyZsh Installed Message
   ansible.builtin.debug:
-    msg: "OhMyZsh is already installed"
+    msg: 'OhMyZsh is already installed'
   when: oh_my_zsh_check.stat.exists
 
-- name: OhMyZsh Path Doesn't Exists
+- name: OhMyZsh Not Installed Message
   ansible.builtin.debug:
-    msg: "OhMyZsh is not installed!"
+    msg: 'OhMyZsh is not installed!'
   when: not oh_my_zsh_check.stat.exists
 
-- name: Installing OhMyZsh
+- name: Install OhMyZsh
   ansible.builtin.command: /bin/zsh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-  when:
-    - not oh_my_zsh_check.stat.exists
+  when: not oh_my_zsh_check.stat.exists
 
-- name: Copy .zshrc to user home directory
+- name: .zshrc Template Configuration
   ansible.builtin.template:
-    src: "{{ role_path }}/templates/.zshrc.j2"
+    src: '{{ role_path }}/templates/.zshrc.j2'
     dest: "{{ lookup('ansible.builtin.env', 'HOME') }}/.zshrc"
     owner: "{{ lookup('ansible.builtin.env', 'USER') }}"
-    group: "{{ user_group }}"
-...
+    group: '{{ user_group }}'
