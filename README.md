@@ -40,17 +40,20 @@ sh bootstrap.sh
 
 ## Roles
 
+> [!NOTE]
+> * ZSH is now installed by default on macOS.
+> * Vscode extensions are managed by the brew role, specifically the brewfile.
+> Please see [Homebrew Bundle](https://github.com/Homebrew/homebrew-bundle) for
+> more information.
+
 | Role                               | Description                                                                         |
 | ---------------------------------- | ----------------------------------------------------------------------------------- |
 | [Azure CLI](./roles/azure_cli/)    | Installs azure-cli extensions                                                       |
-| [Brew](./roles/brew/README.md)     | Installs brew and brew cask packages                                                |
+| [Brew](./roles/brew/README.md)     | Installs brew formulae, casks, and vscode extension                                 |
 | [Git](./roles/git/)                | Configures the .gitconfig file                                                      |
 | [Ruby](./roles/ruby/)              | Installs gem packages                                                               |
 | [Zsh](./roles/zsh/)                | Installs [oh my zsh](https://github.com/ohmyzsh/ohmyzsh) and configures .zshrc file |
-| [VSCode](./roles/vscode/README.md) | Configures vscode settings.json file and installs extensions                        |
-
-> [!NOTE]
-> * ZSH is now installed by default on macOS.
+| [VSCode](./roles/vscode/README.md) | Configures vscode settings.json file                       |
 
 ## References
 

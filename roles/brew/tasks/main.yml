@@ -17,18 +17,12 @@
     update_homebrew: true
   when: homebrew_check.stat.exists
 
-- name: Install Homebrew Cask Packages
-  community.general.homebrew_cask:
-    name: '{{ brew_cask_packages }}'
-    state: present
-  register: result
-  until: result is successful
-  when: homebrew_check.stat.exists
+- name: Install Brew Formulae, Casks, and VSCode Extensions from Brewfile.
+  ansible.builtin.command: brew bundle --file={{ homebrew_brewfile }}
+  # https://ansible.readthedocs.io/projects/lint/rules/no-changed-when/
+  changed_when: true
 
-- name: Install Homebrew Packages
-  community.general.homebrew:
-    name: '{{ brew_packages }}'
-    state: present
-  register: result
-  until: result is successful
-  when: homebrew_check.stat.exists
+- name: Cleanup Brew Formulae, Casks, and VSCode Extensions from Brewfile.
+  ansible.builtin.command: brew bundle --file={{ homebrew_brewfile }} --force cleanup
+  # https://ansible.readthedocs.io/projects/lint/rules/no-changed-when/
+  changed_when: true
