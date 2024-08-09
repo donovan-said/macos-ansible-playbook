@@ -59,6 +59,7 @@ brew "wget"
 # brew install --cask
 cask "aws-vpn-client"
 cask "docker"
+cask "discord"
 cask "font-fira-code"
 cask "iterm2"
 cask "keepingyouawake"
@@ -69,6 +70,14 @@ cask "slack"
 cask "spotify"
 cask "the-unarchiver"
 cask "visual-studio-code"
+# TODO
+# cask whatsapp
+# cask messenger
+# cask signal
+# cask google-chrome
+# cask iterm2
+# cask keepingyouawake
+# cask zoom
 
 # vscode --install-extension
 vscode "amazonwebservices.amazon-q-vscode"

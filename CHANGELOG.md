@@ -17,6 +17,13 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.26.0]
+
+### Chnaged
+
+* Brew formalae, cask, and vscode extension management is now handled by brew
+  bundle.
+
 ## [0.25.0]
 
 ### Added

@@ -18,7 +18,11 @@
   when: homebrew_check.stat.exists
 
 - name: Install Brew Formulae, Casks, and VSCode Extensions from Brewfile.
-  ansible.builtin.command:
-    brew bundle --file={{ homebrew_brewfile }} --force cleanup
+  ansible.builtin.command: brew bundle --file={{ homebrew_brewfile }}
+  # https://ansible.readthedocs.io/projects/lint/rules/no-changed-when/
+  changed_when: true
+
+- name: Cleanup Brew Formulae, Casks, and VSCode Extensions from Brewfile.
+  ansible.builtin.command: brew bundle --file={{ homebrew_brewfile }} --force cleanup
   # https://ansible.readthedocs.io/projects/lint/rules/no-changed-when/
   changed_when: true

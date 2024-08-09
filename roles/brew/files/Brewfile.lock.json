@@ -2263,6 +2263,12 @@
         "options": {
           "full_name": "visual-studio-code"
         }
+      },
+      "discord": {
+        "version": "0.0.314",
+        "options": {
+          "full_name": "discord"
+        }
       }
     },
     "vscode": {

@@ -2,7 +2,12 @@
 
 Installs brew and brew cask packages
 
-## Brew
+- [Brew Role](#brew-role)
+  - [Brew Formulae and Casks](#brew-formulae-and-casks)
+  - [VSCode Extension](#vscode-extension)
+  - [References](#references)
+
+## Brew Formulae and Casks
 
 | Package               | Type     | Description |
 | --------------------- | -------- | ----------- |
