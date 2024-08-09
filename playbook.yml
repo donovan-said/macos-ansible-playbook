@@ -10,7 +10,6 @@
     - './vars/azure.yml'
     - './vars/brew.yml'
     - './vars/ruby.yml'
-    - './vars/vscode.yml'
     - './vars/zsh.yml'
   roles:
     - azure_cli
