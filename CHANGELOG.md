@@ -19,9 +19,9 @@ __Reference__:
 
 ## [0.26.0]
 
-### Chnaged
+### Changed
 
-* Brew formalae, cask, and vscode extension management is now handled by brew
+* Brew formulae, cask, and vscode extension management is now handled by brew
   bundle.
 
 ## [0.25.0]
