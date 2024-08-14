@@ -57,27 +57,40 @@ brew "websocat"
 brew "wget"
 
 # brew install --cask
+
+# VPNs & Remote Connections
 cask "aws-vpn-client"
-cask "docker"
-cask "discord"
-cask "font-fira-code"
-cask "iterm2"
-cask "keepingyouawake"
-cask "microsoft-teams"
-cask "openlens"
-cask "powershell"
+# cask openvpn-connect
+# cask microsoft-remote-desktop
+
+# Messangers
 cask "slack"
-cask "spotify"
-cask "the-unarchiver"
-cask "visual-studio-code"
-# TODO
+cask "microsoft-teams"
+cask "discord"
 # cask whatsapp
 # cask messenger
 # cask signal
-# cask google-chrome
-# cask iterm2
-# cask keepingyouawake
 # cask zoom
+
+# Terminal & IDE
+cask "iterm2"
+cask "visual-studio-code"
+cask "font-fira-code"
+cask "powershell"
+
+# Media & Gaming
+cask "spotify"
+# cask sony-ps-remote-play
+# cask steam
+
+# Containers
+cask "docker"
+
+# Genral Tooling
+cask "keepingyouawake"
+cask "the-unarchiver"
+# cask google-chrome
+# cask nordpass
 
 # vscode --install-extension
 vscode "amazonwebservices.amazon-q-vscode"

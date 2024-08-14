@@ -17,6 +17,12 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.27.0]
+
+### Changed
+
+* Updated brew cask list
+
 ## [0.26.0]
 
 ### Changed
