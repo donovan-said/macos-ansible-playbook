@@ -84,7 +84,7 @@ cask "spotify"
 # cask steam
 
 # Containers
-# cask "docker"
+cask "docker"
 
 # Genral Tooling
 cask "keepingyouawake"
