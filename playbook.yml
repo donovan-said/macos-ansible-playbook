@@ -12,9 +12,9 @@
     - './vars/ruby.yml'
     - './vars/zsh.yml'
   roles:
-    - azure_cli
     - brew
-    - ruby
+    - azure_cli
+    # - ruby
     - git
     - zsh
     - vscode

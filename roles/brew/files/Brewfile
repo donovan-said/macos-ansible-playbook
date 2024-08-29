@@ -1,6 +1,6 @@
 # brew tap
 tap "homebrew/bundle"
-tap "homebrew/cask-fonts"
+# tap "homebrew/cask-fonts"
 
 # brew install
 brew "openssl@3"
@@ -58,14 +58,15 @@ brew "wget"
 
 # brew install --cask
 
-# VPNs & Remote Connections
-cask "aws-vpn-client"
+# Networking
+cask "wireshark"
+# cask "aws-vpn-client"
 # cask openvpn-connect
 # cask microsoft-remote-desktop
 
 # Messangers
-cask "slack"
-cask "microsoft-teams"
+# cask "slack"
+# cask "microsoft-teams"
 cask "discord"
 # cask whatsapp
 # cask messenger
@@ -88,7 +89,7 @@ cask "docker"
 
 # Genral Tooling
 cask "keepingyouawake"
-cask "the-unarchiver"
+# cask "the-unarchiver"
 # cask google-chrome
 # cask nordpass
 
