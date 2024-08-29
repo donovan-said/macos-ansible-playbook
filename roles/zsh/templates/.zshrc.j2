@@ -48,7 +48,13 @@ alias k=kubectl
 # Pyenv Configuration
 # ----------------
 
-eval "$(pyenv init --path)"
+## TODO Fix section -> https://github.com/pyenv/pyenv?tab=readme-ov-file#set-up-your-shell-environment-for-pyenv
+
+# eval "$(pyenv init --path)"
+
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
 
 #-------------------------------------------------------------------------------
 
