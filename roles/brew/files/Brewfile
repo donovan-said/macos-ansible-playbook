@@ -58,7 +58,8 @@ brew "wget"
 
 # brew install --cask
 
-# VPNs & Remote Connections
+# Networking
+cask "wireshark"
 # cask "aws-vpn-client"
 # cask openvpn-connect
 # cask microsoft-remote-desktop
