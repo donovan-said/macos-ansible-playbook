@@ -68,9 +68,9 @@ cask "wireshark"
 # cask "slack"
 # cask "microsoft-teams"
 cask "discord"
-# cask whatsapp
-# cask messenger
-# cask signal
+cask "whatsapp"
+# cask "messenger"
+# cask "signal"
 # cask zoom
 
 # Terminal & IDE
