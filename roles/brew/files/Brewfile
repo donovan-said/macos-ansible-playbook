@@ -89,6 +89,7 @@ cask "docker"
 
 # Genral Tooling
 cask "keepingyouawake"
+cask "postman"
 # cask "the-unarchiver"
 # cask google-chrome
 # cask nordpass
