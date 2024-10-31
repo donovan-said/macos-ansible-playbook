@@ -2091,6 +2091,45 @@
             }
           }
         }
+      },
+      "node@22": {
+        "version": "22.10.0",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_sequoia": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/node/22/blobs/sha256:528222d35a5ae846cd673c0b91a77e6fa3050d2de0c94091cd1b6c4a39656855",
+              "sha256": "528222d35a5ae846cd673c0b91a77e6fa3050d2de0c94091cd1b6c4a39656855"
+            },
+            "arm64_sonoma": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/node/22/blobs/sha256:53825ab98fe302132d5dafe83eb0c10d8d46ebdc8c8a1fb388cf8457d8aa3015",
+              "sha256": "53825ab98fe302132d5dafe83eb0c10d8d46ebdc8c8a1fb388cf8457d8aa3015"
+            },
+            "arm64_ventura": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/node/22/blobs/sha256:68baa5fc58da403c1814e3bec8672d51e355de633f0021b23250c6d06f52f42b",
+              "sha256": "68baa5fc58da403c1814e3bec8672d51e355de633f0021b23250c6d06f52f42b"
+            },
+            "sonoma": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/node/22/blobs/sha256:f6bb645a21a91bbe99c9218e4122afa78e2714332be2adc84092cf422eb195cd",
+              "sha256": "f6bb645a21a91bbe99c9218e4122afa78e2714332be2adc84092cf422eb195cd"
+            },
+            "ventura": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/node/22/blobs/sha256:80345d2d38bc6feb5c6134abe390cb527525854859a2b2386c715d026cac7509",
+              "sha256": "80345d2d38bc6feb5c6134abe390cb527525854859a2b2386c715d026cac7509"
+            },
+            "x86_64_linux": {
+              "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/node/22/blobs/sha256:022797bdca863afb7a3ae77ea096fca338e2f75b613355f75e649618388b21bf",
+              "sha256": "022797bdca863afb7a3ae77ea096fca338e2f75b613355f75e649618388b21bf"
+            }
+          }
+        }
       }
     },
     "cask": {
