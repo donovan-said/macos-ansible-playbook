@@ -27,6 +27,10 @@ __Reference__:
 
 * Commented out some brew packages.
 
+### Removed
+
+* cdk, cdktf, and cdk8s, as these should be managed by npm
+
 ### Fixed
 
 * Role ordering, as this was breaking on fresh installations
