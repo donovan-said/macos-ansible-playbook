@@ -17,6 +17,20 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.28.0]
+
+### Added
+
+* streetsidesoftware.code-spell-checker vscode extension
+
+### Changed
+
+* Commented out some brew packages.
+
+### Fixed
+
+* Role ordering, as this was breaking on fresh installations
+
 ## [0.27.0]
 
 ### Changed
