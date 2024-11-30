@@ -1,11 +1,46 @@
 {
   "editor.formatOnSave": true,
   "files.associations": {
-        "**/*.yml": "ansible",
-        "**/*.yaml": "ansible"
-    },
+    "**/*.yml": "ansible",
+    "**/*.yaml": "ansible"
+  },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "ansible.python.interpreterPath": "/Users/donovansaid/.pyenv/versions/3.9.11/bin/python",
+  "cSpell.words": [
+    "amazonwebservices",
+    "antfu",
+    "awscli",
+    "azureresourcegroups",
+    "dbaeumer",
+    "debugpy",
+    "eamodio",
+    "eksctl",
+    "eriklynd",
+    "fira",
+    "gdbm",
+    "golangci",
+    "hadolint",
+    "istioctl",
+    "iterm",
+    "keepingyouawake",
+    "koehler",
+    "librdkafka",
+    "libyaml",
+    "miguelsolorio",
+    "mkcert",
+    "mongosh",
+    "njpwerner",
+    "nmap",
+    "opentofu",
+    "pipenv",
+    "pkief",
+    "pyenv",
+    "sslscan",
+    "virtualenv",
+    "websocat",
+    "wireshark",
+    "yzhang"
+  ]
 }
