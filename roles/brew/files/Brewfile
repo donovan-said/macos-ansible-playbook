@@ -105,6 +105,7 @@ cask "whatsapp"
 
 # Terminal & IDE
 cask "iterm2"
+cask "ghostty"
 cask "visual-studio-code"
 cask "font-fira-code"
 cask "powershell"
@@ -117,7 +118,7 @@ cask "spotify"
 # Containers
 cask "docker"
 
-# Genral Tooling
+# General Tooling
 cask "keepingyouawake"
 cask "postman"
 # cask "the-unarchiver"

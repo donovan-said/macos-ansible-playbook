@@ -20,7 +20,7 @@
     "terminal.integrated.fontFamily": "Fira Code",
     "terminal.integrated.fontSize": 12,
     "terminal.integrated.lineHeight": 1,
-    "terminal.external.osxExec": "iTerm.app",
+    "terminal.external.osxExec": "Ghostty.app",
     "security.workspace.trust.untrustedFiles": "open",
     "settingsSync.ignoredSettings": [],
     "redhat.telemetry.enabled": true,
