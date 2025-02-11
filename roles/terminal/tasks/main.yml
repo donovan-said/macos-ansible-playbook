@@ -1,0 +1,8 @@
+---
+
+- name: Copy config.j2 to com.mitchellh.ghostty directory
+  ansible.builtin.template:
+    src: "{{ role_path }}/templates/config.js"
+    dest: "{{ lookup('ansible.builtin.env', 'HOME') }}/Library/Application Support/com.mitchellh.ghostty/config"
+    owner: "{{ lookup('ansible.builtin.env', 'USER') }}"
+    group: "{{ user_group }}"

@@ -68,7 +68,6 @@ To get a list of locally installed extensions run `code --list-extensions`  ansi
 | Git              | [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)                                  | eamodio.gitlens                       |
 | AWS              | [AWS Toolkit](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode)         | amazonwebservices.aws-toolkit-vscode  |
 | AWS              | [Amazon Q](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.amazon-q-vscode)               | amazonwebservices.amazon-q-vscode     |
-| Azure            | [Azure Account](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-account)                    | ms-vscode.azure-account               |
 | Azure            | [Azure Pipelines](https://marketplace.visualstudio.com/items?itemName=ms-azure-devops.azure-pipelines)          | ms-azure-devops.azure-pipelines       |
 | Azure/Windows    | [PowerShell](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)                          | ms-vscode.powershell                  |
 | Config           | [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)                   | editorconfig.editorconfig             |
