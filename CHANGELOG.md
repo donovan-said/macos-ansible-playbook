@@ -17,11 +17,22 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.29.0]
+
+### Added
+
+* Ghostty terminal and configuration
+
+### Removed
+
+* ms-vscode.azure-account as this has been deprecated
+
 ## [0.28.0]
 
 ### Added
 
 * streetsidesoftware.code-spell-checker vscode extension
+* CSpell checker and list of words
 
 ### Changed
 

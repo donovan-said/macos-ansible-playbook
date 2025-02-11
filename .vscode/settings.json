@@ -7,7 +7,7 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "ansible.python.interpreterPath": "/Users/donovansaid/.pyenv/versions/3.9.11/bin/python",
+  "ansible.python.interpreterPath": "/opt/homebrew/bin/python3",
   "cSpell.words": [
     "amazonwebservices",
     "antfu",
@@ -27,6 +27,7 @@
     "isort",
     "istioctl",
     "iterm",
+    "keepachangelog",
     "keepingyouawake",
     "koehler",
     "librdkafka",
