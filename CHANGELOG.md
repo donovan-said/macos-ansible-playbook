@@ -17,6 +17,12 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.30.0]
+
+### Added
+
+* Vscode extensions `hashicorp.terraform` and `gamunu.opentofu`
+
 ## [0.29.0]
 
 ### Added
