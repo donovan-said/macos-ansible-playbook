@@ -94,6 +94,9 @@ cask "wireshark"
 # cask openvpn-connect
 # cask microsoft-remote-desktop
 
+# AWS Packages
+cask "session-manager-plugin"
+
 # Messengers
 # cask "slack"
 # cask "microsoft-teams"
@@ -132,6 +135,7 @@ cask "postman"
 vscode "amazonwebservices.amazon-q-vscode"
 vscode "amazonwebservices.aws-toolkit-vscode"
 vscode "antfu.icons-carbon"
+vscode "continue.continue"
 vscode "dbaeumer.vscode-eslint"
 vscode "dracula-theme.theme-dracula"
 vscode "eamodio.gitlens"
@@ -139,6 +143,7 @@ vscode "editorconfig.editorconfig"
 vscode "eriklynd.json-tools"
 vscode "esbenp.prettier-vscode"
 vscode "golang.go"
+vscode "github.vscode-github-actions"
 vscode "ivory-lab.jenkinsfile-support"
 vscode "miguelsolorio.fluent-icons"
 vscode "mongodb.mongodb-vscode"
